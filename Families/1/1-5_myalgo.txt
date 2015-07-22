@@ -1,0 +1,35 @@
+Score for the alignment is 122.5
+
+Correctly aligned segments wrt reference alignment:
+above 80%: 5/6
+
+Bit-Score for the alignment is 51.7952
+
+E-value is 1.66954e-11
+
+90	----------------------------LNVP-	93
+62	NNSCRSRCCPMCQEFPKEKWIDAQKENVLDAPY	94
+
+94	YFHVVFTL	101
+95	-YHVVFT-	100
+
+102	-PCELNR	107
+101	VP-----	102
+
+108	--LC----	109
+103	EELNSIIY	110
+
+110	LYE---	112
+111	---SNQ	113
+
+113	PRLLYDLLFKTAWEVITGF-------	131
+114	-KLLYDVLYHAASATLNELAKDAKYL	138
+
+132	ASNPKFLGASPG	143
+139	-------GANI-	142
+
+144	-MIAILH	149
+143	GYICILH	149
+
+150	TWGQNLSLCKLPQTRTA	166
+150	TWGSAMNY--HPH----	160

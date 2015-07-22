@@ -1,0 +1,4 @@
+myfn()
+{
+	cout << "Success";
+}

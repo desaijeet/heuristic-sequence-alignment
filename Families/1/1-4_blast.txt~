@@ -1,0 +1,50 @@
+BLASTP 2.2.25+
+
+Correctly aligned segments wrt reference alignment:
+above 80%: 10/11
+
+Matched structure:
+122/157
+
+Query= A3XLE6_LEEBM (A3XLE6)
+
+Length=166
+
+Subject= B8IGK7_METNO (B8IGK7)
+
+Length=402
+
+
+ Score =  137 bits (345),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 67/159 (43%), Positives = 98/159 (62%), Gaps = 5/159 (3%)
+
+Query  1    MARATYEVAQVLNRNTQDLAGCCA---TSWQLRTLYALRKCRTAALGGHIDRCTNTSCNI  57
+            M R   E+A VLN++ +      A   +  Q + + A+R CRTAALGGH+ RC   +C+ 
+Sbjct  1    MPRPALELADVLNQHGEASLRAHAGHLSRGQRKVIAAIRACRTAALGGHVARCQ--ACDQ  58
+
+Query  58   LHLSYNSCRNRHCPKCQGHKREQWIRAREEELLNVPYFHVVFTLPCELNRLCLYEPRLLY  117
+            + +S NSCRNRHCPKCQG     W+  ++ +LL V YFHVVF+ P  + R+      ++Y
+Sbjct  59   IQVSSNSCRNRHCPKCQGQTARAWLERQQADLLPVAYFHVVFSRPAPIARVAFQNKAVVY  118
+
+Query  118  DLLFKTAWEVITGFASNPKFLGASPGMIAILHTWGQNLS  156
+             LL +TA + +   A++PK LGA  G+ A+LHTWG  ++
+Sbjct  119  HLLLRTAADTLLTLAADPKHLGARIGLTAVLHTWGSAMT  157
+
+
+
+Lambda     K      H
+   0.326    0.136    0.458 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 53676
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

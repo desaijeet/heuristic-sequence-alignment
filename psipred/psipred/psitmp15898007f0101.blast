@@ -1,0 +1,1054 @@
+BLASTP 2.2.25 [Feb-01-2011]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+
+Reference for composition-based statistics starting in round 2:
+Schaffer, Alejandro A., L. Aravind, Thomas L. Madden,
+Sergei Shavirin, John L. Spouge, Yuri I. Wolf,  
+Eugene V. Koonin, and Stephen F. Altschul (2001), 
+"Improving the accuracy of PSI-BLAST protein database searches with 
+composition-based statistics and other refinements",  Nucleic Acids Res. 29:2994-3005.
+
+Query= A3XLE6_LEEBM (A3XLE6)
+         (166 letters)
+
+Database: All non-redundant GenBank CDS
+translations+PDB+SwissProt+PIR+PRF excluding environmental samples
+from WGS projects 
+           61,390,244 sequences; 21,889,222,377 total letters
+
+Searching..................................................done
+
+
+Results from round 1
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gb|EAQ49626.1| transposase [Leeuwenhoekiella blandensis MED217]       345   7e-93
+ref|WP_040533547.1| transposase, partial [Leeuwenhoekiella bland...   328   1e-87
+ref|WP_031443686.1| transposase [Arenibacter algicola]                275   9e-72
+ref|WP_026836992.1| transposase [Gillisia sp. JM1]                    274   2e-71
+ref|WP_026811193.1| transposase [Arenibacter latericius]              269   9e-70
+ref|WP_026812395.1| transposase [Arenibacter certesii]                268   1e-69
+ref|WP_037319464.1| transposase [Salegentibacter sp. Hel_I_6]         268   2e-69
+ref|WP_037314187.1| transposase [Salegentibacter sp. Hel_I_6]         268   2e-69
+ref|WP_037322328.1| transposase, partial [Salegentibacter sp. He...   266   6e-69
+ref|WP_027127239.1| transposase [Gelidibacter mesophilus]             258   2e-66
+ref|WP_008611912.1| transposase [Joostella marina] >gi|386424826...   254   2e-65
+ref|WP_013454086.1| transposase [Marivirga tractuosa] >gi|312942...   223   5e-56
+ref|WP_034256913.1| transposase, partial [Arenibacter latericius]     206   4e-51
+ref|WP_040414983.1| transposase, partial [Cyclobacterium qasimii]     206   7e-51
+ref|WP_006987064.1| transposase [Gillisia limnaea] >gi|373872175...   202   7e-50
+ref|WP_006987883.1| transposase [Gillisia limnaea] >gi|373869563...   201   2e-49
+ref|WP_026838194.1| transposase [Gillisia sp. JM1]                    199   6e-49
+gb|AAA50501.1| transposase [Bergeyella zoohelcum] >gi|1098131|pr...   199   1e-48
+ref|WP_027127353.1| transposase [Gelidibacter mesophilus]             196   7e-48
+gb|AIL44640.1| Mobile element protein [Elizabethkingia anophelis...   195   1e-47
+ref|WP_029728810.1| transposase [Elizabethkingia anophelis]           195   1e-47
+ref|WP_015022704.1| transposase [Psychroflexus torquis] >gi|4084...   195   2e-47
+ref|WP_024564049.1| transposase [Elizabethkingia anophelis] >gi|...   194   2e-47
+gb|AIL47510.1| Mobile element protein [Elizabethkingia anophelis...   194   2e-47
+ref|WP_038630925.1| transposase [Elizabethkingia anophelis]           194   2e-47
+ref|WP_035572955.1| transposase, partial [Elizabethkingia anophe...   193   5e-47
+ref|WP_015024984.1| transposase [Psychroflexus torquis] >gi|4084...   192   1e-46
+ref|WP_016991417.1| hypothetical protein [Flavobacterium sp. ACA...   190   3e-46
+ref|WP_034976066.1| transposase [Epilithonimonas lactis] >gi|668...   189   5e-46
+ref|WP_022827122.1| transposase [Flavobacterium antarcticum]          189   6e-46
+ref|WP_003447529.1| transposase, IS91 family protein, partial [P...   182   1e-43
+ref|WP_016991348.1| hypothetical protein [Flavobacterium sp. ACA...   181   2e-43
+ref|WP_039053787.1| transposase, partial [Sphingobacterium sp. T2]    167   4e-39
+ref|WP_015805940.1| transposase [Flavobacteriaceae bacterium 351...   165   1e-38
+ref|WP_010256768.1| transposase [Myroides injenensis]                 165   2e-38
+ref|WP_020538817.1| hypothetical protein [Lewinella cohaerens]        164   3e-38
+ref|WP_039346995.1| transposase [Chryseobacterium jeonii] >gi|74...   163   5e-38
+ref|WP_038333685.1| transposase [Empedobacter falsenii]               162   8e-38
+ref|WP_034751629.1| transposase, partial [Chryseobacterium vryst...   162   1e-37
+ref|WP_038335828.1| transposase [Empedobacter falsenii]               160   3e-37
+ref|WP_020571607.1| hypothetical protein, partial [Lewinella per...   160   4e-37
+ref|WP_036496126.1| transposase, partial [Myroides injenensis]        157   3e-36
+ref|WP_015805947.1| transposase [Flavobacteriaceae bacterium 351...   157   4e-36
+ref|WP_036286085.1| transposase [Methylosinus sp. PW1]                156   7e-36
+ref|WP_020088068.1| hypothetical protein [Hyphomicrobium zavarzi...   156   7e-36
+ref|WP_036289122.1| transposase [Methylosinus sp. PW1]                156   8e-36
+ref|WP_035698196.1| transposase, partial [Atribacteria bacterium...   155   2e-35
+ref|WP_018204639.1| MULTISPECIES: hypothetical protein [unclassi...   154   2e-35
+ref|WP_018268884.1| hypothetical protein [Bradyrhizobium elkanii]     154   3e-35
+ref|WP_027821126.1| transposase [Burkholderia bannensis]              154   4e-35
+ref|WP_018264743.1| hypothetical protein [Methylosinus sp. LW4]       153   5e-35
+ref|WP_008343560.1| transposase [Burkholderia sp. SJ98] >gi|4139...   153   5e-35
+ref|WP_015934105.1| transposase [Methylobacterium nodulans] >gi|...   152   9e-35
+ref|WP_013075663.1| transposase [Kyrpidia tusciae] >gi|295411884...   152   1e-34
+ref|WP_014184628.1| transposase [Desulfosporosinus orientis] >gi...   151   2e-34
+ref|WP_027156033.1| transposase [Mesorhizobium sp. WSM2561]           150   3e-34
+ref|WP_023693497.1| transposase [Mesorhizobium sp. LSJC268A00] >...   150   4e-34
+ref|WP_042585151.1| transposase [Burkholderia sp. MSHR3999]           150   5e-34
+ref|WP_027573673.1| transposase [Bradyrhizobium sp. WSM1743]          150   5e-34
+ref|WP_015500173.1| transposase [Octadecabacter antarcticus] >gi...   149   6e-34
+ref|WP_036022088.1| transposase [Burkholderia mimosarum]              149   9e-34
+ref|WP_030101887.1| transposase [Burkholderia sp. K24] >gi|68026...   149   1e-33
+ref|WP_025647643.1| MULTISPECIES: transposase [Burkholderia]          149   1e-33
+ref|WP_006524051.1| transposase [Desulfotomaculum gibsoniae] >gi...   149   1e-33
+ref|WP_027255807.1| transposase [Leisingera aquimarina]               148   2e-33
+ref|WP_026135799.1| hypothetical protein [Nafulsella turpanensis]     148   2e-33
+ref|WP_034281980.1| MULTISPECIES: transposase, partial [unclassi...   148   2e-33
+gb|KIP17031.1| transposase family protein [Burkholderia sp. MSHR...   148   2e-33
+ref|WP_029942627.1| transposase, partial [Aminicenantes bacteriu...   148   2e-33
+ref|WP_034753295.1| transposase, partial [Bacteroides cellulosil...   148   2e-33
+ref|WP_035937484.1| transposase [Burkholderia glathei] >gi|67829...   148   2e-33
+gb|EIY31917.1| hypothetical protein HMPREF1062_02344 [Bacteroide...   147   3e-33
+ref|WP_035943503.1| transposase [Burkholderia glathei] >gi|64676...   147   3e-33
+ref|WP_027542029.1| transposase [Bradyrhizobium sp. URHA0002]         147   3e-33
+ref|WP_021234387.1| transposase [Novosphingobium lindaniclasticu...   147   3e-33
+ref|WP_039574394.1| transposase [Sphingopyxis sp. Kp5.2] >gi|734...   147   4e-33
+ref|WP_035716761.1| transposase [Bradyrhizobium sp. CCBAU 43298]      146   5e-33
+ref|WP_041343879.1| transposase, partial [Runella slithyformis]       146   6e-33
+ref|WP_003333314.1| hypothetical protein [Bacillus azotoformans]...   146   7e-33
+gb|EMD82381.1| Putative transposase y4qJ [alpha proteobacterium ...   146   7e-33
+ref|WP_035098178.1| transposase [Devosia sp. LC5] >gi|668951530|...   146   7e-33
+ref|WP_040680885.1| transposase [Rhizobium sp. LPU83] >gi|583962...   145   9e-33
+ref|WP_040680937.1| transposase [Rhizobium sp. LPU83] >gi|583962...   145   9e-33
+ref|WP_027574436.1| transposase [Bradyrhizobium sp. WSM1743]          145   1e-32
+ref|WP_018616654.1| hypothetical protein [Segetibacter koreensis]     145   1e-32
+ref|WP_040680781.1| transposase [Rhizobium sp. LPU83] >gi|583961...   145   1e-32
+ref|WP_006715296.1| transposase [Desulfitobacterium metallireduc...   145   1e-32
+ref|WP_040680946.1| transposase [Rhizobium sp. LPU83] >gi|583963...   145   1e-32
+ref|WP_028309392.1| transposase [Desulfitibacter alkalitolerans]      145   1e-32
+ref|WP_037239735.1| transposase [Roseovarius sp. MCTG156(2b)]         145   1e-32
+ref|WP_041004986.1| transposase [Mesorhizobium plurifarium] >gi|...   145   1e-32
+ref|WP_009820053.1| transposase [Roseovarius sp. 217] >gi|856690...   145   1e-32
+ref|WP_040777426.1| transposase [Rhodobacteraceae bacterium HTCC...   145   1e-32
+emb|CCD86215.1| transposase [Bradyrhizobium sp. ORS 285]              145   1e-32
+ref|WP_027146086.1| transposase [Mesorhizobium sp. WSM3626]           144   2e-32
+ref|WP_036735872.1| transposase [Peptococcaceae bacterium SCADC1...   144   2e-32
+ref|WP_023924611.1| transposase [Rhodobacter capsulatus] >gi|564...   144   2e-32
+ref|WP_018236707.1| transposase [Ensifer sp. BR816]                   144   2e-32
+ref|WP_011540408.1| transposase [Sphingopyxis alaskensis] >gi|98...   144   2e-32
+ref|WP_018234687.1| transposase [Ensifer sp. BR816]                   144   2e-32
+ref|WP_018238875.1| transposase [Ensifer sp. BR816]                   144   2e-32
+ref|WP_040581808.1| transposase [Mesorhizobium amorphae]              144   3e-32
+ref|WP_018237623.1| transposase [Ensifer sp. BR816]                   144   3e-32
+ref|WP_041881078.1| transposase, partial [Cloacimonetes bacteriu...   144   3e-32
+ref|WP_037381529.1| transposase [Ensifer americanum] >gi|6543707...   144   3e-32
+ref|WP_040962345.1| transposase [Sinorhizobium fredii]                144   3e-32
+ref|WP_008603691.1| Putative transposase y4qJ [alpha proteobacte...   144   3e-32
+ref|WP_018236862.1| transposase [Ensifer sp. BR816]                   144   3e-32
+ref|WP_035077437.1| transposase [Devosia riboflavina] >gi|674767...   144   3e-32
+ref|WP_008758517.1| transposase [Rhodobacteraceae bacterium KLH1...   144   3e-32
+ref|WP_037266114.1| transposase [Roseivivax halodurans]               144   3e-32
+ref|WP_037484122.1| transposase [Sphingomonas paucimobilis] >gi|...   144   4e-32
+ref|WP_006727803.1| transposase [Agrobacterium albertimagni] >gi...   144   4e-32
+ref|WP_015495987.1| transposase [Octadecabacter arcticus] >gi|47...   144   4e-32
+gb|ESZ15219.1| transposase [Mesorhizobium sp. L48C026A00]             144   4e-32
+ref|WP_037150355.1| transposase [Rhizobium sp. YS-1r] >gi|687294...   144   4e-32
+ref|WP_036744268.1| transposase [Paracoccus halophilus] >gi|6942...   144   4e-32
+ref|WP_011689257.1| transposase [Candidatus Solibacter usitatus]...   143   5e-32
+ref|WP_010188023.1| transposase [Sphingomonas sp. PAMC 26605]         143   5e-32
+ref|WP_039845830.1| transposase [Rhizobium gallicum]                  143   5e-32
+ref|WP_035355595.1| hypothetical protein [Edaphobacter aggregans]     143   5e-32
+ref|WP_023769369.1| transposase [Mesorhizobium sp. LNHC232B00] >...   143   5e-32
+ref|WP_029959990.1| transposase [Ensifer sp. USDA 6670]               143   6e-32
+ref|WP_010914044.1| transposase [Mesorhizobium loti] >gi|1347537...   143   6e-32
+ref|WP_031293431.1| transposase [Sphingobium sp. HDIP04]              143   6e-32
+ref|WP_015392184.1| putative transposase [Clostridium saccharope...   143   6e-32
+ref|WP_036362489.1| transposase [Microvirga lupini]                   143   7e-32
+ref|WP_037259113.1| transposase, partial [Rhodovibrio salinarum]      143   7e-32
+ref|WP_011383367.1| transposase [Magnetospirillum magneticum] >g...   143   7e-32
+ref|WP_027153292.1| transposase [Mesorhizobium sp. WSM2561]           142   8e-32
+ref|WP_017184009.1| transposase [Sphingobium xenophagum]              142   8e-32
+gb|AEH87209.1| putative transposase [Mesorhizobium opportunistum...   142   9e-32
+gb|EPX76435.1| Mobile element protein [Salipiger mucosus DSM 16094]   142   1e-31
+ref|WP_022702453.1| transposase [Pseudorhodobacter ferrugineus]       142   1e-31
+gb|ESZ57096.1| transposase [Mesorhizobium sp. L103C120A0]             142   1e-31
+ref|WP_037513380.1| transposase [Sphingobium yanoikuyae] >gi|669...   142   1e-31
+ref|WP_011685045.1| transposase [Candidatus Solibacter usitatus]...   142   1e-31
+ref|WP_013120333.1| transposase [Thermincola potens] >gi|2960315...   142   1e-31
+ref|WP_025573654.1| transposase [Chloroflexi bacterium JGI 00020...   142   1e-31
+ref|WP_008833080.1| transposase [Sphingomonas sp. LH128] >gi|402...   142   1e-31
+ref|WP_015061516.1| hypothetical protein [Sinorhizobium meliloti...   142   1e-31
+ref|WP_012187102.1| transposase [Dinoroseobacter shibae] >gi|159...   142   1e-31
+ref|WP_017183491.1| transposase [Sphingobium xenophagum]              142   1e-31
+gb|AEH87212.1| putative transposase [Mesorhizobium opportunistum...   142   1e-31
+ref|WP_022692089.1| transposase [Sphingomonas-like bacterium B12]     142   1e-31
+ref|WP_034157643.1| transposase [Sphingomonas sp. ERG5]               142   1e-31
+ref|WP_018993102.1| hypothetical protein, partial [Azoarcus tolu...   142   1e-31
+gb|EXI88936.1| putative transposase [Candidatus Accumulibacter s...   142   1e-31
+emb|CDM60075.1| putative transposase y4qJ [Rhizobium sp. LPU83]       142   1e-31
+ref|WP_015497122.1| transposase [Octadecabacter arcticus] >gi|47...   141   2e-31
+ref|WP_010215264.1| transposase [Sphingomonas sp. PAMC 26621]         141   2e-31
+ref|WP_006937524.1| transposase [Labrenzia aggregata] >gi|118435...   141   2e-31
+ref|WP_030539117.1| transposase [Sphingobium sp. DC-2]                141   2e-31
+ref|WP_027400129.1| transposase, partial [Anaerovorax odorimutans]    141   2e-31
+ref|WP_027630711.1| transposase [[Clostridium] cellobioparum]         141   2e-31
+ref|WP_024078894.1| Transposase [Magnetospirillum gryphiswaldens...   141   2e-31
+ref|WP_014184391.1| transposase [Desulfosporosinus orientis] >gi...   141   2e-31
+ref|WP_041409870.1| transposase [Sinorhizobium fredii] >gi|75454...   141   2e-31
+ref|WP_021233619.1| transposase [Novosphingobium lindaniclasticu...   141   2e-31
+ref|WP_022689967.1| transposase [Sphingomonas-like bacterium B12]     141   2e-31
+ref|WP_037437088.1| transposase [Sinorhizobium fredii]                141   2e-31
+ref|WP_039773532.1| transposase [Clostridium diolis]                  141   2e-31
+ref|WP_014902800.1| transposase [Desulfosporosinus meridiei] >gi...   141   3e-31
+ref|WP_037457036.1| transposase [Sinorhizobium fredii]                141   3e-31
+ref|WP_037402347.1| transposase [Sinorhizobium fredii]                141   3e-31
+ref|WP_019054853.1| transposase [Sphingobium xenophagum]              141   3e-31
+ref|WP_006938755.1| transposase [Labrenzia aggregata] >gi|118433...   141   3e-31
+emb|CAM74069.1| transposase [Magnetospirillum gryphiswaldense MS...   141   3e-31
+ref|WP_008833511.1| transposase [Sphingomonas sp. LH128] >gi|402...   141   3e-31
+ref|WP_024080631.1| putative transposase [Magnetospirillum gryph...   140   3e-31
+ref|WP_034597910.1| transposase [Desulfosporosinus sp. HMP52] >g...   140   3e-31
+ref|WP_036357520.1| transposase [Microvirga lupini]                   140   3e-31
+ref|WP_008832092.1| transposase [Sphingomonas sp. LH128] >gi|402...   140   3e-31
+ref|WP_010663736.1| transposase [Marinilabilia salmonicolor]          140   3e-31
+ref|WP_006337792.1| transposase [Mesorhizobium sp. STM 4661] >gi...   140   3e-31
+ref|WP_012405793.1| transposase [Burkholderia phymatum] >gi|1841...   140   4e-31
+ref|WP_026605504.1| transposase [Methylocapsa acidiphila]             140   4e-31
+ref|WP_012187141.1| transposase [Dinoroseobacter shibae] >gi|159...   140   4e-31
+ref|WP_035098130.1| transposase [Devosia sp. LC5] >gi|668951490|...   140   4e-31
+ref|WP_036531096.1| transposase [Novosphingobium resinovorum] >g...   140   4e-31
+ref|WP_041528756.1| transposase [Pelagibacterium halotolerans]        140   4e-31
+ref|WP_027545409.1| transposase [Bradyrhizobium sp. WSM2254]          140   4e-31
+ref|WP_017210225.1| hypothetical protein [Clostridium beijerinckii]   140   4e-31
+gb|ESY88165.1| transposase [Mesorhizobium sp. LNHC229A00]             140   4e-31
+ref|WP_025574116.1| transposase [Chloroflexi bacterium JGI 00020...   140   4e-31
+ref|WP_027513859.1| transposase [Rhizobium sullae]                    140   5e-31
+ref|WP_019054251.1| transposase [Sphingobium xenophagum]              140   5e-31
+ref|WP_025025588.1| hypothetical protein [Bacillus mannanilyticus]    140   5e-31
+ref|WP_027170296.1| transposase [Mesorhizobium sp. WSM3224]           140   5e-31
+ref|WP_009622109.1| transposase [Desulfosporosinus sp. OT] >gi|3...   140   5e-31
+ref|WP_010335857.1| transposase [Sphingobium yanoikuyae]              140   5e-31
+ref|WP_020820548.1| MULTISPECIES: transposase [Sphingobium] >gi|...   140   5e-31
+ref|WP_024091612.1| transposase [Leisingera methylohalidivorans]...   140   5e-31
+ref|WP_037482437.1| transposase [Sphingomonas paucimobilis] >gi|...   140   5e-31
+ref|WP_017502975.1| transposase [alpha proteobacterium LLX12A]        140   5e-31
+ref|WP_037434776.1| transposase, partial [Sinorhizobium fredii]       140   5e-31
+ref|WP_011899502.1| putative transposase [Magnetospirillum gryph...   139   6e-31
+ref|WP_023697841.1| transposase [Mesorhizobium sp. LSJC265A00] >...   139   6e-31
+ref|WP_010915951.1| transposase [Mesorhizobium loti] >gi|1348814...   139   6e-31
+ref|WP_007783987.1| transposase [Desulfosporosinus youngiae] >gi...   139   6e-31
+ref|WP_010339170.1| transposase [Sphingobium yanoikuyae]              139   7e-31
+ref|WP_008557691.1| transposase [Rhodobacterales bacterium Y4I] ...   139   8e-31
+ref|WP_015494933.1| transposase [Octadecabacter arcticus] >gi|47...   139   8e-31
+ref|WP_002727942.1| transposase [Phaeospirillum molischianum] >g...   139   8e-31
+ref|WP_010219372.1| transposase [Sphingomonas sp. PAMC 26621]         139   8e-31
+ref|WP_039396210.1| transposase [Novosphingobium sp. MBES04] >gi...   139   9e-31
+ref|WP_037427728.1| transposase, partial [Sinorhizobium sp. CCBA...   139   9e-31
+ref|WP_037193413.1| transposase [Rhizobium sp. OK494]                 139   9e-31
+emb|CCE98932.1| hypothetical protein SFHH103_04455 [Sinorhizobiu...   139   9e-31
+ref|WP_018312315.1| hypothetical protein, partial [Cupriavidus s...   139   1e-30
+ref|WP_028720869.1| transposase [Paracoccus yeei]                     139   1e-30
+ref|WP_027681619.1| transposase [Rhizobium leguminosarum]             139   1e-30
+ref|WP_006718104.1| transposase [Desulfitobacterium metallireduc...   139   1e-30
+ref|WP_022674594.1| transposase [Novosphingobium sp. B-7]             139   1e-30
+ref|WP_032900158.1| transposase, partial [Mesorhizobium sp. L103...   139   1e-30
+ref|WP_028054417.1| transposase [Sinorhizobium meliloti]              138   1e-30
+ref|WP_018481510.1| transposase, partial [Rhizobium leguminosarum]    138   1e-30
+ref|WP_028054424.1| transposase [Sinorhizobium meliloti]              138   1e-30
+ref|WP_007781972.1| transposase [Desulfosporosinus youngiae] >gi...   138   2e-30
+gb|AHK44773.1| putative transposase of undefined mobile element ...   138   2e-30
+ref|WP_037486555.1| transposase [Sphingomonas paucimobilis] >gi|...   138   2e-30
+ref|WP_042339721.1| transposase, partial [Desulfosporosinus youn...   138   2e-30
+gb|AHF25959.1| transposase [uncultured bacterium Contigcl_1556]       138   2e-30
+gb|EHQ89870.1| Putative transposase [Desulfosporosinus youngiae ...   138   2e-30
+ref|WP_022678171.1| transposase [Novosphingobium sp. B-7]             138   2e-30
+ref|WP_039152137.1| transposase, partial [Leisingera sp. ANG-DT]      138   2e-30
+ref|WP_012406119.1| transposase [Burkholderia phymatum] >gi|1841...   138   2e-30
+ref|WP_026752533.1| transposase [Sediminibacterium sp. C3]            138   2e-30
+ref|WP_036357069.1| transposase [Microvirga lupini]                   137   3e-30
+ref|WP_015888209.1| transposase [Sinorhizobium fredii] >gi|22782...   137   3e-30
+emb|CCD32169.1| Putative transposase for insertion sequence elem...   137   3e-30
+ref|WP_041163732.1| MULTISPECIES: transposase, partial [Mesorhiz...   137   3e-30
+gb|KIS29924.1| transposase [Novosphingobium sp. P6W]                  137   3e-30
+ref|WP_042647602.1| transposase [Mesorhizobium sp. ORS3359] >gi|...   137   3e-30
+ref|WP_037463907.1| transposase [Sphingobium herbicidovorans] >g...   137   3e-30
+ref|WP_035646052.1| transposase [Bradyrhizobium sp. ORS 285]          137   3e-30
+ref|WP_034617702.1| transposase [Desulfosporosinus sp. Tol-M] >g...   137   3e-30
+ref|WP_007193346.1| transposase [Thiocapsa marina] >gi|343800541...   137   3e-30
+gb|EQB01178.1| transposase [Sphingobium sp. HDIP04]                   137   4e-30
+ref|WP_022685505.1| transposase [Sphingomonas phyllosphaerae]         137   4e-30
+gb|KIN91975.1| transposase family protein [Thauera sp. SWB20]         137   4e-30
+gb|ETX13021.1| transposase [Roseivivax halodurans JCM 10272]          137   4e-30
+ref|WP_021250130.1| transposase [Thauera terpenica] >gi|52886325...   137   4e-30
+ref|WP_027471365.1| hypothetical protein [Cytophaga fermentans]       137   4e-30
+ref|WP_006050642.1| transposase [Burkholderia graminis] >gi|1701...   137   4e-30
+ref|WP_015927609.1| transposase [Methylobacterium nodulans] >gi|...   137   4e-30
+ref|WP_037427670.1| transposase [Sinorhizobium sp. CCBAU 05631]       137   4e-30
+gb|ESY62268.1| transposase [Mesorhizobium sp. LNHC232B00]             137   4e-30
+ref|WP_018240407.1| transposase [Ensifer sp. BR816]                   137   4e-30
+ref|WP_013530389.1| MULTISPECIES: transposase, partial [Mesorhiz...   137   4e-30
+ref|WP_037484135.1| transposase [Sphingomonas paucimobilis] >gi|...   137   5e-30
+gb|EHH13951.1| putative transposase for insertion sequence eleme...   137   5e-30
+ref|WP_035357465.1| hypothetical protein, partial [Edaphobacter ...   137   5e-30
+ref|WP_023863261.1| hypothetical protein, partial [Youngiibacter...   136   5e-30
+ref|WP_015241728.1| Putative transposase [Sinorhizobium meliloti...   136   6e-30
+ref|WP_011652217.1| transposase [Rhizobium leguminosarum] >gi|11...   136   6e-30
+ref|WP_007676735.1| transposase [alpha proteobacterium BAL199] >...   136   6e-30
+ref|WP_034511441.1| transposase, partial [Agrobacterium rhizogenes]   136   6e-30
+ref|WP_015495018.1| transposase [Octadecabacter arcticus] >gi|47...   136   6e-30
+ref|WP_034953772.1| transposase [Candidatus Accumulibacter sp. S...   136   6e-30
+ref|WP_015886711.1| transposase [Sinorhizobium fredii] >gi|22781...   136   6e-30
+ref|WP_036526787.1| transposase [Novosphingobium resinovorum] >g...   136   6e-30
+ref|WP_027991202.1| transposase [Sinorhizobium meliloti]              136   7e-30
+ref|WP_035187651.1| transposase, partial [Acidiphilium sp. JA12-A1]   136   7e-30
+ref|WP_007668732.1| transposase [alpha proteobacterium BAL199] >...   136   7e-30
+ref|WP_013845832.1| transposase [Sinorhizobium meliloti] >gi|334...   136   7e-30
+ref|WP_007674738.1| transposase [alpha proteobacterium BAL199] >...   136   7e-30
+ref|WP_027803823.1| transposase [Burkholderia dilworthii]             136   7e-30
+ref|WP_035924767.1| transposase [Burkholderia glathei] >gi|64676...   136   7e-30
+ref|WP_035866277.1| transposase [Cupriavidus sp. SK-3] >gi|64557...   136   7e-30
+ref|WP_013639834.1| transposase [Acidiphilium multivorum] >gi|32...   136   8e-30
+ref|WP_034611593.1| transposase, partial [Desulfosporosinus sp. ...   136   8e-30
+ref|WP_020201289.1| transposase [Cupriavidus sp. WS]                  136   8e-30
+ref|WP_004265661.1| transposase [Thauera aminoaromatica] >gi|479...   136   8e-30
+ref|WP_035971049.1| transposase, partial [Burkholderia grimmiae]...   136   8e-30
+ref|WP_018327355.1| transposase [Rhizobium giardinii]                 136   8e-30
+ref|WP_035807524.1| transposase [Cupriavidus basilensis]              136   8e-30
+emb|CCE94754.1| putative transposase y4qJ [Sinorhizobium fredii ...   136   9e-30
+gb|AJE48508.1| putative transposase [Celeribacter indicus]            136   9e-30
+ref|WP_033053057.1| transposase, partial [Sinorhizobium meliloti]     135   9e-30
+ref|WP_012584323.1| transposase [Thauera sp. MZ1T] >gi|217506045...   135   9e-30
+ref|WP_015494880.1| transposase [Octadecabacter arcticus] >gi|47...   135   9e-30
+ref|WP_004299253.1| transposase [Thauera aminoaromatica] >gi|479...   135   9e-30
+ref|WP_040958097.1| transposase [Sinorhizobium fredii]                135   1e-29
+ref|WP_032986666.1| transposase, partial [Rhizobium leguminosarum]    135   1e-29
+ref|WP_015494692.1| transposase [Octadecabacter arcticus] >gi|47...   135   1e-29
+ref|WP_040668419.1| transposase, partial [Rhizobium giardinii]        135   1e-29
+ref|WP_024293675.1| MULTISPECIES: transposase [Lachnoclostridium]     135   1e-29
+ref|WP_015495511.1| transposase, partial [Octadecabacter arcticu...   135   1e-29
+ref|WP_012708197.1| transposase [Sinorhizobium fredii] >gi|22782...   135   1e-29
+ref|WP_015496834.1| transposase [Octadecabacter arcticus] >gi|47...   135   1e-29
+gb|KHQ49859.1| putative transposase [Ponticoccus sp. UMTAT08]         135   1e-29
+ref|WP_017273346.1| transposase [Sinorhizobium meliloti] >gi|589...   135   1e-29
+ref|WP_035549095.1| transposase [Burkholderia sp. 9120]               135   1e-29
+ref|WP_040680916.1| transposase [Rhizobium sp. LPU83] >gi|583962...   135   1e-29
+ref|WP_015494867.1| IS91 family transposase [Octadecabacter arct...   135   1e-29
+ref|WP_024319302.1| transposase, partial [Rhizobium sp. OR191]        135   1e-29
+ref|WP_015496932.1| transposase [Octadecabacter arcticus] >gi|47...   135   1e-29
+ref|WP_015496923.1| transposase [Octadecabacter arcticus] >gi|47...   135   1e-29
+ref|WP_006329062.1| transposase [Mesorhizobium sp. STM 4661] >gi...   135   1e-29
+ref|WP_035189697.1| transposase, partial [Acidiphilium sp. JA12-A1]   135   1e-29
+gb|ESX98013.1| transposase [Mesorhizobium sp. LNJC399B00]             135   1e-29
+ref|WP_023766849.1| transposase [Mesorhizobium sp. LNHC232B00] >...   135   1e-29
+ref|WP_010875222.1| transposase [Sinorhizobium fredii] >gi|16519...   135   1e-29
+ref|WP_022540238.1| transposase [Ralstonia pickettii] >gi|546343...   135   1e-29
+ref|WP_026200678.1| transposase [Cupriavidus sp. UYPR2.512]           135   2e-29
+ref|WP_028232657.1| transposase [Burkholderia mimosarum]              135   2e-29
+ref|WP_011236918.1| transposase [Aromatoleum aromaticum] >gi|563...   135   2e-29
+ref|WP_011930582.1| transposase [Acidiphilium cryptum] >gi|14824...   135   2e-29
+ref|WP_012428456.1| transposase [Burkholderia phytofirmans] >gi|...   135   2e-29
+ref|WP_023699561.1| transposase [Mesorhizobium sp. LSJC264A00] >...   135   2e-29
+ref|WP_021283175.1| hypothetical protein [Clostridium sp. BL8] >...   135   2e-29
+ref|WP_027241258.1| transposase [Pseudophaeobacter arcticus]          135   2e-29
+ref|WP_028215598.1| transposase [Burkholderia mimosarum]              135   2e-29
+ref|WP_013723135.1| transposase [Alicycliphilus denitrificans] >...   135   2e-29
+gb|AGA68219.1| Putative transposase [Desulfitobacterium dichloro...   135   2e-29
+ref|WP_038121092.1| transposase, partial [Variovorax sp. URHB0020]    135   2e-29
+ref|WP_015497561.1| transposase [Octadecabacter arcticus] >gi|47...   135   2e-29
+ref|WP_032921255.1| transposase, partial [Mesorhizobium loti]         134   2e-29
+ref|WP_024319241.1| transposase [Rhizobium sp. OR191] >gi|583957...   134   2e-29
+ref|WP_033923577.1| transposase, partial [Sphingomonas sp. 37zxx]     134   2e-29
+ref|WP_012039990.1| transposase [Acidiphilium cryptum] >gi|14826...   134   2e-29
+ref|WP_014531761.1| transposase [Sinorhizobium meliloti] >gi|336...   134   2e-29
+ref|WP_040412270.1| transposase, partial [Desulfosporosinus sp. OT]   134   2e-29
+gb|EGW38752.1| transposase family protein [Desulfosporosinus sp....   134   2e-29
+ref|WP_041219673.1| transposase, partial [Desulfitobacterium dic...   134   2e-29
+ref|WP_031364917.1| transposase [Burkholderia sordidicola]            134   2e-29
+ref|WP_019658752.1| transposase [Variovorax paradoxus]                134   2e-29
+ref|WP_037071279.1| transposase [Rhizobium sp. OR191]                 134   3e-29
+emb|CDM59896.1| transposase [Rhizobium sp. LPU83] >gi|584453843|...   134   3e-29
+ref|WP_012709665.1| transposase [Sinorhizobium fredii] >gi|22782...   134   3e-29
+ref|WP_018481639.1| transposase [Rhizobium leguminosarum]             134   3e-29
+ref|WP_040745465.1| transposase, partial [alpha proteobacterium ...   134   3e-29
+ref|WP_019998820.1| hypothetical protein [Aureimonas ureilytica]      134   3e-29
+ref|WP_015494989.1| transposase [Octadecabacter arcticus] >gi|47...   134   3e-29
+ref|WP_027236478.1| transposase [Leisingera caerulea]                 134   3e-29
+ref|WP_015004712.1| transposase [Burkholderia phenoliruptrix] >g...   134   3e-29
+ref|WP_027234984.1| transposase [Leisingera caerulea]                 134   3e-29
+ref|WP_025439991.1| transposase [Komagataeibacter xylinus] >gi|5...   134   3e-29
+ref|WP_026617295.1| transposase [Ensifer sp. TW10]                    134   3e-29
+ref|WP_040428297.1| transposase, partial [Acetivibrio cellulolyt...   134   4e-29
+ref|WP_015496664.1| hypothetical protein, partial [Octadecabacte...   134   4e-29
+ref|WP_039906093.1| transposase [Acetobacter tropicalis]              134   4e-29
+gb|EDP63173.1| putative transposase for insertion sequence eleme...   134   4e-29
+ref|WP_039736611.1| transposase, partial [Komagataeibacter inter...   134   4e-29
+gb|AHI27278.1| transposase [Komagataeibacter xylinus E25]             134   4e-29
+ref|WP_041692942.1| transposase, partial [Ensifer adhaerens]          134   4e-29
+ref|WP_009807934.1| transposase [Roseobacter sp. MED193] >gi|858...   134   4e-29
+ref|WP_038577214.1| transposase [Ensifer adhaerens]                   134   4e-29
+ref|WP_040962728.1| transposase [Sinorhizobium fredii]                133   5e-29
+ref|WP_015768383.1| transposase [Candidatus Accumulibacter phosp...   133   5e-29
+dbj|GAB32141.1| putative transposase [Acetobacter pasteurianus s...   133   5e-29
+ref|WP_041250544.1| transposase [Komagataeibacter xylinus]            133   5e-29
+ref|WP_019087691.1| hypothetical protein, partial [Komagataeibac...   133   5e-29
+ref|WP_034932597.1| transposase [Komagataeibacter rhaeticus] >gi...   133   5e-29
+ref|WP_036370215.1| transposase, partial [Microvirga lupini]          133   5e-29
+ref|WP_008903193.1| transposase [Acidovorax sp. NO-1] >gi|363417...   133   5e-29
+ref|WP_010516861.1| transposase [Komagataeibacter oboediens]          133   6e-29
+ref|WP_020585694.1| hypothetical protein [Desulfobacter curvatus]     133   6e-29
+ref|WP_002730545.1| transposase, partial [Phaeospirillum molisch...   133   6e-29
+ref|WP_027780679.1| transposase [Burkholderia caledonica]             133   7e-29
+ref|WP_019092214.1| transposase [Komagataeibacter europaeus]          133   7e-29
+ref|WP_035924769.1| transposase [Burkholderia glathei] >gi|64676...   133   7e-29
+ref|WP_011654196.1| transposase [Rhizobium leguminosarum] >gi|11...   133   7e-29
+ref|WP_035547855.1| transposase [Burkholderia sp. 9120]               133   8e-29
+ref|WP_034625589.1| transposase [Bacillus okhensis] >gi|72709143...   132   8e-29
+ref|WP_023626037.1| hypothetical protein [Bacillus sp. 17376] >g...   132   9e-29
+ref|WP_035529694.1| transposase [Burkholderia sacchari] >gi|7235...   132   9e-29
+ref|WP_026622268.1| transposase [Ensifer sp. WSM1721]                 132   1e-28
+ref|WP_018311573.1| transposase [Cupriavidus sp. UYPR2.512]           132   1e-28
+ref|WP_034761871.1| transposase [Bacillus vietnamensis]               132   1e-28
+ref|WP_019087605.1| hypothetical protein, partial [Komagataeibac...   132   1e-28
+ref|WP_009550292.1| transposase [Burkholderiales bacterium JOSHI...   132   1e-28
+ref|WP_007745881.1| transposase [Burkholderia sp. BT03] >gi|5767...   132   1e-28
+ref|WP_024163167.1| transposase [Burkholderia sp. BT03] >gi|5767...   132   1e-28
+gb|EUC15544.1| Transposase zinc-binding domain containing protei...   132   1e-28
+ref|WP_024163064.1| transposase [Burkholderia sp. BT03] >gi|5767...   132   1e-28
+ref|WP_008344701.1| MULTISPECIES: transposase [Burkholderia] >gi...   132   1e-28
+ref|WP_035538517.1| transposase, partial [Burkholderia sp. BT03]      132   1e-28
+ref|WP_024163049.1| transposase [Burkholderia sp. BT03] >gi|5767...   132   1e-28
+ref|WP_037492800.1| transposase [Sphingomonas sp. PAMC 26605]         132   1e-28
+ref|WP_011493955.1| transposase [Burkholderia xenovorans] >gi|91...   132   2e-28
+ref|WP_040664949.1| hypothetical protein, partial [Nafulsella tu...   132   2e-28
+ref|WP_028215267.1| transposase [Burkholderia mimosarum]              132   2e-28
+ref|WP_035992351.1| transposase [Burkholderia caribensis]             131   2e-28
+dbj|BAL00363.1| putative transposase [Oscillibacter valericigene...   131   2e-28
+ref|WP_014108251.1| transposase [Glaciecola nitratireducens] >gi...   131   2e-28
+ref|WP_014116732.1| transposase [Oscillibacter valericigenes] >g...   131   2e-28
+dbj|GAC35058.1| hypothetical protein GPLA_4179 [Glaciecola polar...   131   2e-28
+ref|WP_006745854.1| transposase [Thioalkalivibrio thiocyanoxidan...   131   2e-28
+dbj|BAK98915.1| putative transposase [Oscillibacter valericigene...   131   2e-28
+ref|WP_040515514.1| transposase, partial [Glaciecola polaris]         131   2e-28
+ref|WP_023414286.1| hypothetical protein [uncultured Thiohalocap...   131   2e-28
+ref|WP_029770524.1| transposase [Pseudogulbenkiania sp. MAI-1]        131   2e-28
+ref|WP_026177568.1| transposase [Thiobacillus denitrificans]          131   2e-28
+ref|WP_015497571.1| transposase, partial [Octadecabacter arcticu...   131   2e-28
+ref|WP_022237657.1| transposase [Clostridium sp. CAG:343] >gi|52...   131   3e-28
+ref|WP_040906865.1| transposase, partial [Youngiibacter fragilis]     130   3e-28
+ref|WP_029770730.1| transposase [Pseudogulbenkiania sp. MAI-1]        130   3e-28
+ref|WP_029969404.1| transposase [Burkholderia sp. URHA0054]           130   3e-28
+ref|WP_011463499.1| transposase [Rhodoferax ferrireducens] >gi|8...   130   4e-28
+ref|WP_015867271.1| transposase [Variovorax paradoxus] >gi|23980...   130   4e-28
+ref|WP_016843874.1| hypothetical protein [Bradyrhizobium elkanii]     130   4e-28
+ref|WP_035682481.1| transposase, partial [Bradyrhizobium liaonin...   130   4e-28
+ref|WP_028344302.1| transposase [Bradyrhizobium elkanii]              130   4e-28
+ref|WP_018420269.1| transposase [Burkholderia sp. WSM4176]            130   5e-28
+ref|WP_034751761.1| transposase [Bacillus wakoensis] >gi|5688057...   130   5e-28
+ref|WP_032993871.1| transposase, partial [Rhizobium leguminosarum]    130   5e-28
+gb|ACH69659.1| putative transposase [uncultured bacterium]            130   6e-28
+ref|WP_010668084.1| transposase [Acetobacter aceti]                   130   6e-28
+ref|WP_034388195.1| transposase, partial [Comamonas composti]         130   7e-28
+ref|WP_041615922.1| transposase, partial [Oscillibacter valerici...   129   7e-28
+dbj|BAL00372.1| putative transposase [Oscillibacter valericigene...   129   7e-28
+dbj|GAC34980.1| hypothetical protein GPLA_4101 [Glaciecola polar...   129   8e-28
+gb|AGL02812.1| Putative transposase [Desulfotomaculum gibsoniae ...   129   8e-28
+ref|WP_040515482.1| transposase [Glaciecola polaris]                  129   8e-28
+ref|WP_024972723.1| transposase [Ralstonia pickettii]                 129   9e-28
+ref|WP_006848606.1| putative transposase y4qJ [Prevotella copri]...   129   9e-28
+gb|ETA81464.1| transposase, partial [Youngiibacter fragilis 232.1]    129   1e-27
+ref|WP_037267564.1| transposase, partial [Roseivivax halodurans]...   129   1e-27
+dbj|GAA10354.1| transposase [Acetobacter tropicalis NBRC 101654]      129   1e-27
+gb|ACN17534.1| transposase family protein [Desulfobacterium auto...   129   1e-27
+ref|WP_006889489.1| transposase [Methylobacter tundripaludum] >g...   129   1e-27
+ref|WP_032993934.1| transposase, partial [Rhizobium leguminosarum]    129   1e-27
+ref|WP_037069955.1| transposase [Rhizobium sp. LPU83]                 129   1e-27
+gb|ETY82498.1| Mobile element protein [Burkholderia caribensis M...   128   2e-27
+ref|WP_040681015.1| transposase [Rhizobium sp. LPU83] >gi|583963...   128   2e-27
+gb|EAP90252.1| transposase [Oceanicaulis sp. HTCC2633]                128   2e-27
+ref|WP_006891225.1| transposase [Methylobacter tundripaludum] >g...   128   2e-27
+ref|WP_026663410.1| transposase [Butyrivibrio proteoclasticus]        127   3e-27
+ref|WP_029318836.1| hypothetical protein, partial [Butyrivibrio ...   127   3e-27
+ref|WP_026687182.1| transposase [Azovibrio restrictus]                127   3e-27
+ref|WP_029085028.1| transposase [Bradyrhizobium sp. th.b2]            127   3e-27
+ref|WP_042322906.1| transposase [Burkholderia ginsengisoli]           127   3e-27
+ref|WP_040613328.1| transposase [Oceanicaulis sp. HTCC2633]           127   3e-27
+ref|WP_027235659.1| transposase [Leisingera caerulea]                 127   3e-27
+ref|WP_027234882.1| transposase [Leisingera caerulea]                 127   4e-27
+ref|WP_027149490.1| transposase [Methylobacter tundripaludum]         127   4e-27
+ref|WP_026135710.1| transposase [Nafulsella turpanensis]              127   5e-27
+ref|WP_004069654.1| hypothetical protein [Clostridium sp. ASF502...   126   7e-27
+ref|WP_027245727.1| transposase [Leisingera daeponensis]              126   7e-27
+ref|WP_029319605.1| transposase [Butyrivibrio sp. AE3004]             126   7e-27
+ref|WP_036732579.1| transposase [Peptococcaceae bacterium SCADC1...   126   7e-27
+gb|ENZ61166.1| hypothetical protein HMPREF1083_03828 [ [[Clostri...   126   9e-27
+ref|WP_038273772.1| hypothetical protein, partial [[Clostridium]...   125   1e-26
+ref|WP_019808526.1| putative transposase [Osedax symbiont Rs1] >...   125   1e-26
+ref|WP_018233684.1| hypothetical protein [Thioalkalivibrio thioc...   125   1e-26
+ref|WP_011485668.1| transposase [Polaromonas sp. JS666] >gi|9169...   125   1e-26
+ref|WP_014773451.1| transposase [Belliella baltica] >gi|39041792...   125   1e-26
+ref|WP_027149487.1| transposase [Methylobacter tundripaludum]         125   1e-26
+gb|ABL71466.1| putative transposase [Paracoccus denitrificans PD...   125   1e-26
+ref|WP_031436298.1| transposase [Methylobacter tundripaludum]         125   1e-26
+ref|WP_035804741.1| transposase [Cyclobacteriaceae bacterium AK24]    125   2e-26
+ref|WP_006159295.1| transposase, partial [Cupriavidus basilensis...   125   2e-26
+ref|WP_041158305.1| transposase, partial [Halomonas sp. KHS3]         125   2e-26
+ref|WP_023863528.1| transposase, partial [Youngiibacter fragilis...   124   3e-26
+ref|WP_005033235.1| transposase [Holophaga foetida]                   124   3e-26
+gb|EHK73513.1| putative transposase for insertion sequence eleme...   124   3e-26
+ref|WP_032922948.1| transposase, partial [Mesorhizobium sp. LNHC...   124   4e-26
+gb|AFS60651.1| transposase [bacterium symbiont of Theonella swin...   124   4e-26
+ref|WP_027470237.1| hypothetical protein [Cytophaga fermentans] ...   124   5e-26
+ref|WP_003866318.1| transposase [Holdemanella biformis] >gi|2182...   123   5e-26
+ref|WP_013755172.1| transposase [Glaciecola sp. 4H-3-7+YE-5] >gi...   123   5e-26
+gb|ESY68888.1| transposase [Mesorhizobium sp. LNHC232B00]             123   5e-26
+ref|WP_041779698.1| transposase, partial [Belliella baltica]          123   5e-26
+gb|AFL85511.1| Putative transposase [Belliella baltica DSM 15883]     123   6e-26
+ref|WP_014771681.1| transposase [Belliella baltica] >gi|39041609...   123   6e-26
+ref|WP_034625661.1| hypothetical protein [Desulfotignum balticum]     123   7e-26
+ref|WP_022757609.1| MULTISPECIES: transposase [Butyrivibrio]          122   9e-26
+emb|CCM80239.1| transposase [Rhizobium mesoamericanum STM3625]        122   9e-26
+ref|WP_026491914.1| transposase [Butyrivibrio sp. XPD2002]            122   1e-25
+dbj|GAE47597.1| mobile element protein [Bacillus boroniphilus JC...   122   1e-25
+ref|WP_022523184.1| transposase (fragment) [Halomonas sp. A3H3] ...   122   1e-25
+ref|WP_004615654.1| hypothetical protein [Tyzzerella nexilis] >g...   122   1e-25
+ref|WP_033024444.1| transposase, partial [Pseudoalteromonas halo...   122   2e-25
+ref|WP_042709702.1| transposase, partial [Sinorhizobium meliloti]     122   2e-25
+ref|WP_029725261.1| hypothetical protein, partial [Desulfotignum...   122   2e-25
+gb|ERG08379.1| transposase [Pseudoalteromonas arctica A 37-1-2]       121   3e-25
+ref|WP_007351893.1| transposase [Marinobacter sp. ELB17] >gi|126...   121   3e-25
+ref|WP_032826997.1| MULTISPECIES: hypothetical protein, partial ...   121   3e-25
+ref|WP_026517290.1| transposase [Butyrivibrio sp. MC2021]             121   3e-25
+ref|WP_034234124.1| transposase [Lachnospiraceae bacterium AC2029]    120   4e-25
+ref|WP_029732597.1| hypothetical protein [Dorea sp. AGR2135]          120   4e-25
+ref|WP_005336941.1| hypothetical protein [Dorea formicigenerans]...   120   4e-25
+ref|WP_040673645.1| transposase, partial [Rhodanobacter spathiph...   120   4e-25
+ref|WP_016219480.1| hypothetical protein [Dorea sp. 5-2] >gi|507...   120   4e-25
+ref|WP_040011514.1| hypothetical protein [Desulfotignum phosphit...   120   4e-25
+gb|ETX08296.1| hypothetical protein ETSY2_06210 [Candidatus Ento...   120   4e-25
+gb|EIL89142.1| putative transposase [Rhodanobacter spathiphylli ...   120   4e-25
+ref|WP_026663092.1| transposase [Butyrivibrio proteoclasticus]        120   4e-25
+ref|WP_034231286.1| transposase [Lachnospiraceae bacterium AC2029]    120   5e-25
+ref|WP_026650355.1| hypothetical protein [Blautia wexlerae]           120   5e-25
+ref|WP_004057725.1| hypothetical protein [Eubacterium plexicauda...   120   5e-25
+ref|WP_026489412.1| transposase [Butyrivibrio sp. XBB1001]            120   6e-25
+ref|WP_009149936.1| transposase [Thiorhodovibrio sp. 970] >gi|38...   120   6e-25
+ref|WP_027641388.1| transposase [[Clostridium] clostridioforme]       120   6e-25
+gb|ETR68107.1| transposase [Candidatus Magnetoglobus multicellul...   119   7e-25
+gb|ETR66559.1| transposase [Candidatus Magnetoglobus multicellul...   119   8e-25
+gb|EOS47972.1| hypothetical protein C810_01058 [Lachnospiraceae ...   119   8e-25
+gb|EOS24608.1| hypothetical protein C806_02122 [Lachnospiraceae ...   119   1e-24
+
+Searching..................................................done
+
+
+Results from round 2
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+Sequences used in model and found again:
+
+gb|EAQ49626.1| transposase [Leeuwenhoekiella blandensis MED217]       246   5e-63
+ref|WP_011652217.1| transposase [Rhizobium leguminosarum] >gi|11...   241   2e-61
+ref|WP_020088068.1| hypothetical protein [Hyphomicrobium zavarzi...   240   3e-61
+ref|WP_026622268.1| transposase [Ensifer sp. WSM1721]                 240   4e-61
+ref|WP_037427670.1| transposase [Sinorhizobium sp. CCBAU 05631]       240   4e-61
+ref|WP_027821126.1| transposase [Burkholderia bannensis]              240   5e-61
+ref|WP_015241728.1| Putative transposase [Sinorhizobium meliloti...   239   6e-61
+ref|WP_012187141.1| transposase [Dinoroseobacter shibae] >gi|159...   239   7e-61
+ref|WP_013845832.1| transposase [Sinorhizobium meliloti] >gi|334...   239   8e-61
+ref|WP_018240407.1| transposase [Ensifer sp. BR816]                   239   9e-61
+ref|WP_027991202.1| transposase [Sinorhizobium meliloti]              238   1e-60
+ref|WP_035098178.1| transposase [Devosia sp. LC5] >gi|668951530|...   238   2e-60
+ref|WP_026617295.1| transposase [Ensifer sp. TW10]                    237   2e-60
+ref|WP_037482437.1| transposase [Sphingomonas paucimobilis] >gi|...   237   2e-60
+ref|WP_010875222.1| transposase [Sinorhizobium fredii] >gi|16519...   237   3e-60
+ref|WP_031293431.1| transposase [Sphingobium sp. HDIP04]              237   3e-60
+ref|WP_040680916.1| transposase [Rhizobium sp. LPU83] >gi|583962...   237   3e-60
+ref|WP_020820548.1| MULTISPECIES: transposase [Sphingobium] >gi|...   236   5e-60
+ref|WP_037150355.1| transposase [Rhizobium sp. YS-1r] >gi|687294...   236   5e-60
+ref|WP_035077437.1| transposase [Devosia riboflavina] >gi|674767...   235   8e-60
+ref|WP_002727942.1| transposase [Phaeospirillum molischianum] >g...   235   1e-59
+ref|WP_019054853.1| transposase [Sphingobium xenophagum]              235   1e-59
+ref|WP_029959990.1| transposase [Ensifer sp. USDA 6670]               235   1e-59
+ref|WP_017273346.1| transposase [Sinorhizobium meliloti] >gi|589...   235   2e-59
+ref|WP_014531761.1| transposase [Sinorhizobium meliloti] >gi|336...   235   2e-59
+ref|WP_017183491.1| transposase [Sphingobium xenophagum]              235   2e-59
+ref|WP_040680946.1| transposase [Rhizobium sp. LPU83] >gi|583963...   235   2e-59
+ref|WP_027681619.1| transposase [Rhizobium leguminosarum]             234   2e-59
+ref|WP_039845830.1| transposase [Rhizobium gallicum]                  234   2e-59
+ref|WP_040680885.1| transposase [Rhizobium sp. LPU83] >gi|583962...   234   2e-59
+ref|WP_040680781.1| transposase [Rhizobium sp. LPU83] >gi|583961...   234   2e-59
+ref|WP_040680937.1| transposase [Rhizobium sp. LPU83] >gi|583962...   234   3e-59
+ref|WP_024319241.1| transposase [Rhizobium sp. OR191] >gi|583957...   234   3e-59
+ref|WP_027255807.1| transposase [Leisingera aquimarina]               234   3e-59
+ref|WP_022674594.1| transposase [Novosphingobium sp. B-7]             234   3e-59
+ref|WP_036357069.1| transposase [Microvirga lupini]                   234   3e-59
+ref|WP_039574394.1| transposase [Sphingopyxis sp. Kp5.2] >gi|734...   233   3e-59
+ref|WP_041528756.1| transposase [Pelagibacterium halotolerans]        233   4e-59
+ref|WP_023924611.1| transposase [Rhodobacter capsulatus] >gi|564...   233   5e-59
+ref|WP_008833511.1| transposase [Sphingomonas sp. LH128] >gi|402...   233   5e-59
+ref|WP_008343560.1| transposase [Burkholderia sp. SJ98] >gi|4139...   233   5e-59
+ref|WP_022678171.1| transposase [Novosphingobium sp. B-7]             233   5e-59
+ref|WP_028054417.1| transposase [Sinorhizobium meliloti]              233   5e-59
+ref|WP_027153292.1| transposase [Mesorhizobium sp. WSM2561]           233   6e-59
+ref|WP_027542029.1| transposase [Bradyrhizobium sp. URHA0002]         233   6e-59
+ref|WP_037484122.1| transposase [Sphingomonas paucimobilis] >gi|...   232   7e-59
+gb|ESZ57096.1| transposase [Mesorhizobium sp. L103C120A0]             232   8e-59
+ref|WP_006727803.1| transposase [Agrobacterium albertimagni] >gi...   232   8e-59
+ref|WP_037484135.1| transposase [Sphingomonas paucimobilis] >gi|...   232   9e-59
+ref|WP_036362489.1| transposase [Microvirga lupini]                   232   9e-59
+ref|WP_024078894.1| Transposase [Magnetospirillum gryphiswaldens...   232   1e-58
+ref|WP_012187102.1| transposase [Dinoroseobacter shibae] >gi|159...   231   1e-58
+ref|WP_019054251.1| transposase [Sphingobium xenophagum]              231   1e-58
+ref|WP_024080631.1| putative transposase [Magnetospirillum gryph...   231   1e-58
+ref|WP_037266114.1| transposase [Roseivivax halodurans]               231   2e-58
+ref|WP_023699561.1| transposase [Mesorhizobium sp. LSJC264A00] >...   231   2e-58
+ref|WP_024319302.1| transposase, partial [Rhizobium sp. OR191]        231   2e-58
+ref|WP_037381529.1| transposase [Ensifer americanum] >gi|6543707...   231   2e-58
+ref|WP_025647643.1| MULTISPECIES: transposase [Burkholderia]          231   2e-58
+emb|CAM74069.1| transposase [Magnetospirillum gryphiswaldense MS...   231   2e-58
+ref|WP_010914044.1| transposase [Mesorhizobium loti] >gi|1347537...   231   2e-58
+ref|WP_040962345.1| transposase [Sinorhizobium fredii]                231   2e-58
+ref|WP_006937524.1| transposase [Labrenzia aggregata] >gi|118435...   231   2e-58
+ref|WP_030101887.1| transposase [Burkholderia sp. K24] >gi|68026...   231   3e-58
+ref|WP_023766849.1| transposase [Mesorhizobium sp. LNHC232B00] >...   231   3e-58
+ref|WP_011540408.1| transposase [Sphingopyxis alaskensis] >gi|98...   230   3e-58
+ref|WP_006337792.1| transposase [Mesorhizobium sp. STM 4661] >gi...   230   3e-58
+ref|WP_021233619.1| transposase [Novosphingobium lindaniclasticu...   230   3e-58
+ref|WP_011899502.1| putative transposase [Magnetospirillum gryph...   230   3e-58
+gb|ESZ15219.1| transposase [Mesorhizobium sp. L48C026A00]             230   3e-58
+ref|WP_030539117.1| transposase [Sphingobium sp. DC-2]                230   3e-58
+ref|WP_018236707.1| transposase [Ensifer sp. BR816]                   230   4e-58
+ref|WP_018238875.1| transposase [Ensifer sp. BR816]                   230   4e-58
+ref|WP_035937484.1| transposase [Burkholderia glathei] >gi|67829...   230   4e-58
+ref|WP_027573673.1| transposase [Bradyrhizobium sp. WSM1743]          230   4e-58
+ref|WP_018234687.1| transposase [Ensifer sp. BR816]                   230   4e-58
+ref|WP_027146086.1| transposase [Mesorhizobium sp. WSM3626]           230   4e-58
+ref|WP_015934105.1| transposase [Methylobacterium nodulans] >gi|...   230   4e-58
+ref|WP_036289122.1| transposase [Methylosinus sp. PW1]                230   4e-58
+gb|EPX76435.1| Mobile element protein [Salipiger mucosus DSM 16094]   230   4e-58
+ref|WP_018237623.1| transposase [Ensifer sp. BR816]                   230   4e-58
+gb|EXI88936.1| putative transposase [Candidatus Accumulibacter s...   230   4e-58
+ref|WP_040777426.1| transposase [Rhodobacteraceae bacterium HTCC...   230   5e-58
+ref|WP_012405793.1| transposase [Burkholderia phymatum] >gi|1841...   230   5e-58
+ref|WP_040533547.1| transposase, partial [Leeuwenhoekiella bland...   230   5e-58
+ref|WP_010335857.1| transposase [Sphingobium yanoikuyae]              230   6e-58
+ref|WP_008832092.1| transposase [Sphingomonas sp. LH128] >gi|402...   230   6e-58
+ref|WP_037513380.1| transposase [Sphingobium yanoikuyae] >gi|669...   229   6e-58
+ref|WP_025573654.1| transposase [Chloroflexi bacterium JGI 00020...   229   8e-58
+ref|WP_022689967.1| transposase [Sphingomonas-like bacterium B12]     229   9e-58
+ref|WP_023697841.1| transposase [Mesorhizobium sp. LSJC265A00] >...   229   9e-58
+ref|WP_007193346.1| transposase [Thiocapsa marina] >gi|343800541...   229   9e-58
+ref|WP_035943503.1| transposase [Burkholderia glathei] >gi|64676...   229   1e-57
+ref|WP_017502975.1| transposase [alpha proteobacterium LLX12A]        228   1e-57
+ref|WP_018236862.1| transposase [Ensifer sp. BR816]                   228   1e-57
+ref|WP_010339170.1| transposase [Sphingobium yanoikuyae]              228   1e-57
+ref|WP_041004986.1| transposase [Mesorhizobium plurifarium] >gi|...   228   1e-57
+ref|WP_008557691.1| transposase [Rhodobacterales bacterium Y4I] ...   228   1e-57
+ref|WP_042585151.1| transposase [Burkholderia sp. MSHR3999]           228   1e-57
+ref|WP_015500173.1| transposase [Octadecabacter antarcticus] >gi...   228   1e-57
+ref|WP_037486555.1| transposase [Sphingomonas paucimobilis] >gi|...   228   1e-57
+ref|WP_018204639.1| MULTISPECIES: hypothetical protein [unclassi...   228   1e-57
+ref|WP_031443686.1| transposase [Arenibacter algicola]                228   1e-57
+ref|WP_028309392.1| transposase [Desulfitibacter alkalitolerans]      228   2e-57
+ref|WP_027545409.1| transposase [Bradyrhizobium sp. WSM2254]          228   2e-57
+ref|WP_027574436.1| transposase [Bradyrhizobium sp. WSM1743]          228   2e-57
+ref|WP_013639834.1| transposase [Acidiphilium multivorum] >gi|32...   228   2e-57
+ref|WP_035924769.1| transposase [Burkholderia glathei] >gi|64676...   228   2e-57
+ref|WP_036286085.1| transposase [Methylosinus sp. PW1]                228   2e-57
+ref|WP_023769369.1| transposase [Mesorhizobium sp. LNHC232B00] >...   228   2e-57
+ref|WP_022685505.1| transposase [Sphingomonas phyllosphaerae]         228   2e-57
+ref|WP_010215264.1| transposase [Sphingomonas sp. PAMC 26621]         227   2e-57
+ref|WP_035716761.1| transposase [Bradyrhizobium sp. CCBAU 43298]      227   2e-57
+ref|WP_027149487.1| transposase [Methylobacter tundripaludum]         227   2e-57
+ref|WP_026836992.1| transposase [Gillisia sp. JM1]                    227   3e-57
+ref|WP_011930582.1| transposase [Acidiphilium cryptum] >gi|14824...   227   3e-57
+ref|WP_039396210.1| transposase [Novosphingobium sp. MBES04] >gi...   227   4e-57
+emb|CCD86215.1| transposase [Bradyrhizobium sp. ORS 285]              227   4e-57
+ref|WP_010188023.1| transposase [Sphingomonas sp. PAMC 26605]         227   4e-57
+ref|WP_035098130.1| transposase [Devosia sp. LC5] >gi|668951490|...   226   4e-57
+ref|WP_008833080.1| transposase [Sphingomonas sp. LH128] >gi|402...   226   4e-57
+ref|WP_039152137.1| transposase, partial [Leisingera sp. ANG-DT]      226   4e-57
+ref|WP_036526787.1| transposase [Novosphingobium resinovorum] >g...   226   4e-57
+gb|KIS29924.1| transposase [Novosphingobium sp. P6W]                  226   4e-57
+ref|WP_006524051.1| transposase [Desulfotomaculum gibsoniae] >gi...   226   5e-57
+ref|WP_037193413.1| transposase [Rhizobium sp. OK494]                 226   5e-57
+ref|WP_031436298.1| transposase [Methylobacter tundripaludum]         226   5e-57
+ref|WP_021234387.1| transposase [Novosphingobium lindaniclasticu...   226   7e-57
+ref|WP_025574116.1| transposase [Chloroflexi bacterium JGI 00020...   226   8e-57
+ref|WP_012039990.1| transposase [Acidiphilium cryptum] >gi|14826...   225   9e-57
+ref|WP_036531096.1| transposase [Novosphingobium resinovorum] >g...   225   9e-57
+ref|WP_022692089.1| transposase [Sphingomonas-like bacterium B12]     225   9e-57
+ref|WP_037463907.1| transposase [Sphingobium herbicidovorans] >g...   225   1e-56
+ref|WP_042647602.1| transposase [Mesorhizobium sp. ORS3359] >gi|...   225   1e-56
+gb|KIP17031.1| transposase family protein [Burkholderia sp. MSHR...   225   1e-56
+ref|WP_008758517.1| transposase [Rhodobacteraceae bacterium KLH1...   225   1e-56
+gb|AHK44773.1| putative transposase of undefined mobile element ...   225   1e-56
+ref|WP_018420269.1| transposase [Burkholderia sp. WSM4176]            225   1e-56
+ref|WP_008603691.1| Putative transposase y4qJ [alpha proteobacte...   225   1e-56
+ref|WP_028720869.1| transposase [Paracoccus yeei]                     225   1e-56
+ref|WP_012406119.1| transposase [Burkholderia phymatum] >gi|1841...   225   1e-56
+ref|WP_029942627.1| transposase, partial [Aminicenantes bacteriu...   225   2e-56
+ref|WP_035187651.1| transposase, partial [Acidiphilium sp. JA12-A1]   225   2e-56
+ref|WP_042322906.1| transposase [Burkholderia ginsengisoli]           225   2e-56
+emb|CCM80239.1| transposase [Rhizobium mesoamericanum STM3625]        225   2e-56
+gb|ESY88165.1| transposase [Mesorhizobium sp. LNHC229A00]             224   2e-56
+ref|WP_027127239.1| transposase [Gelidibacter mesophilus]             224   2e-56
+ref|WP_036022088.1| transposase [Burkholderia mimosarum]              224   2e-56
+ref|WP_034281980.1| MULTISPECIES: transposase, partial [unclassi...   224   2e-56
+ref|WP_027236478.1| transposase [Leisingera caerulea]                 224   3e-56
+ref|WP_018264743.1| hypothetical protein [Methylosinus sp. LW4]       224   3e-56
+ref|WP_006891225.1| transposase [Methylobacter tundripaludum] >g...   224   3e-56
+ref|WP_006715296.1| transposase [Desulfitobacterium metallireduc...   223   3e-56
+ref|WP_009807934.1| transposase [Roseobacter sp. MED193] >gi|858...   223   3e-56
+ref|WP_027234984.1| transposase [Leisingera caerulea]                 223   4e-56
+ref|WP_015495987.1| transposase [Octadecabacter arcticus] >gi|47...   223   4e-56
+ref|WP_015061516.1| hypothetical protein [Sinorhizobium meliloti...   223   4e-56
+ref|WP_027149490.1| transposase [Methylobacter tundripaludum]         223   4e-56
+ref|WP_026812395.1| transposase [Arenibacter certesii]                223   4e-56
+ref|WP_024091612.1| transposase [Leisingera methylohalidivorans]...   223   4e-56
+ref|WP_006718104.1| transposase [Desulfitobacterium metallireduc...   223   4e-56
+ref|WP_013723135.1| transposase [Alicycliphilus denitrificans] >...   223   5e-56
+ref|WP_006889489.1| transposase [Methylobacter tundripaludum] >g...   223   5e-56
+ref|WP_026177568.1| transposase [Thiobacillus denitrificans]          223   5e-56
+ref|WP_014184391.1| transposase [Desulfosporosinus orientis] >gi...   222   8e-56
+ref|WP_028344302.1| transposase [Bradyrhizobium elkanii]              222   8e-56
+ref|WP_026605504.1| transposase [Methylocapsa acidiphila]             222   9e-56
+ref|WP_017184009.1| transposase [Sphingobium xenophagum]              222   1e-55
+ref|WP_035698196.1| transposase, partial [Atribacteria bacterium...   222   1e-55
+ref|WP_021250130.1| transposase [Thauera terpenica] >gi|52886325...   221   1e-55
+ref|WP_009622109.1| transposase [Desulfosporosinus sp. OT] >gi|3...   221   1e-55
+ref|WP_027241258.1| transposase [Pseudophaeobacter arcticus]          221   2e-55
+ref|WP_034157643.1| transposase [Sphingomonas sp. ERG5]               221   2e-55
+gb|KHQ49859.1| putative transposase [Ponticoccus sp. UMTAT08]         221   2e-55
+ref|WP_010219372.1| transposase [Sphingomonas sp. PAMC 26621]         221   2e-55
+ref|WP_014902800.1| transposase [Desulfosporosinus meridiei] >gi...   221   2e-55
+ref|WP_034597910.1| transposase [Desulfosporosinus sp. HMP52] >g...   221   2e-55
+ref|WP_028232657.1| transposase [Burkholderia mimosarum]              221   2e-55
+ref|WP_028215598.1| transposase [Burkholderia mimosarum]              221   2e-55
+ref|WP_022702453.1| transposase [Pseudorhodobacter ferrugineus]       221   3e-55
+ref|WP_040958097.1| transposase [Sinorhizobium fredii]                221   3e-55
+ref|WP_041409870.1| transposase [Sinorhizobium fredii] >gi|75454...   220   3e-55
+ref|WP_037457036.1| transposase [Sinorhizobium fredii]                220   3e-55
+ref|WP_006938755.1| transposase [Labrenzia aggregata] >gi|118433...   220   3e-55
+gb|KIN91975.1| transposase family protein [Thauera sp. SWB20]         220   3e-55
+ref|WP_034388195.1| transposase, partial [Comamonas composti]         220   3e-55
+ref|WP_034617702.1| transposase [Desulfosporosinus sp. Tol-M] >g...   220   3e-55
+ref|WP_015497122.1| transposase [Octadecabacter arcticus] >gi|47...   220   4e-55
+ref|WP_008611912.1| transposase [Joostella marina] >gi|386424826...   220   4e-55
+ref|WP_037437088.1| transposase [Sinorhizobium fredii]                220   4e-55
+ref|WP_012584323.1| transposase [Thauera sp. MZ1T] >gi|217506045...   220   4e-55
+ref|WP_037319464.1| transposase [Salegentibacter sp. Hel_I_6]         220   4e-55
+ref|WP_007783987.1| transposase [Desulfosporosinus youngiae] >gi...   220   4e-55
+ref|WP_037314187.1| transposase [Salegentibacter sp. Hel_I_6]         220   4e-55
+ref|WP_015495018.1| transposase [Octadecabacter arcticus] >gi|47...   220   5e-55
+ref|WP_015496932.1| transposase [Octadecabacter arcticus] >gi|47...   220   5e-55
+ref|WP_013075663.1| transposase [Kyrpidia tusciae] >gi|295411884...   220   5e-55
+ref|WP_015496834.1| transposase [Octadecabacter arcticus] >gi|47...   220   5e-55
+ref|WP_015495511.1| transposase, partial [Octadecabacter arcticu...   220   5e-55
+ref|WP_015494880.1| transposase [Octadecabacter arcticus] >gi|47...   220   5e-55
+ref|WP_037402347.1| transposase [Sinorhizobium fredii]                220   5e-55
+ref|WP_015494692.1| transposase [Octadecabacter arcticus] >gi|47...   220   5e-55
+ref|WP_037322328.1| transposase, partial [Salegentibacter sp. He...   220   6e-55
+ref|WP_038121092.1| transposase, partial [Variovorax sp. URHB0020]    219   7e-55
+ref|WP_004265661.1| transposase [Thauera aminoaromatica] >gi|479...   219   7e-55
+ref|WP_026200678.1| transposase [Cupriavidus sp. UYPR2.512]           219   8e-55
+ref|WP_039906093.1| transposase [Acetobacter tropicalis]              219   8e-55
+ref|WP_015494867.1| IS91 family transposase [Octadecabacter arct...   219   8e-55
+ref|WP_015496923.1| transposase [Octadecabacter arcticus] >gi|47...   219   8e-55
+ref|WP_018993102.1| hypothetical protein, partial [Azoarcus tolu...   219   8e-55
+ref|WP_011463499.1| transposase [Rhodoferax ferrireducens] >gi|8...   219   8e-55
+ref|WP_015494989.1| transposase [Octadecabacter arcticus] >gi|47...   219   9e-55
+ref|WP_034932597.1| transposase [Komagataeibacter rhaeticus] >gi...   218   1e-54
+ref|WP_025439991.1| transposase [Komagataeibacter xylinus] >gi|5...   218   1e-54
+ref|WP_004299253.1| transposase [Thauera aminoaromatica] >gi|479...   218   1e-54
+ref|WP_015497561.1| transposase [Octadecabacter arcticus] >gi|47...   218   1e-54
+ref|WP_015494933.1| transposase [Octadecabacter arcticus] >gi|47...   218   1e-54
+ref|WP_018268884.1| hypothetical protein [Bradyrhizobium elkanii]     218   1e-54
+ref|WP_037427728.1| transposase, partial [Sinorhizobium sp. CCBA...   218   1e-54
+ref|WP_035866277.1| transposase [Cupriavidus sp. SK-3] >gi|64557...   218   1e-54
+ref|WP_036744268.1| transposase [Paracoccus halophilus] >gi|6942...   218   2e-54
+ref|WP_013120333.1| transposase [Thermincola potens] >gi|2960315...   218   2e-54
+ref|WP_024972723.1| transposase [Ralstonia pickettii]                 218   2e-54
+ref|WP_026838194.1| transposase [Gillisia sp. JM1]                    218   2e-54
+ref|WP_015004712.1| transposase [Burkholderia phenoliruptrix] >g...   218   2e-54
+ref|WP_031364917.1| transposase [Burkholderia sordidicola]            218   2e-54
+ref|WP_011493955.1| transposase [Burkholderia xenovorans] >gi|91...   218   2e-54
+dbj|GAB32141.1| putative transposase [Acetobacter pasteurianus s...   217   2e-54
+ref|WP_021283175.1| hypothetical protein [Clostridium sp. BL8] >...   217   3e-54
+ref|WP_026811193.1| transposase [Arenibacter latericius]              217   3e-54
+ref|WP_022540238.1| transposase [Ralstonia pickettii] >gi|546343...   217   3e-54
+ref|WP_037239735.1| transposase [Roseovarius sp. MCTG156(2b)]         217   3e-54
+ref|WP_027513859.1| transposase [Rhizobium sullae]                    217   3e-54
+ref|WP_006987064.1| transposase [Gillisia limnaea] >gi|373872175...   217   4e-54
+ref|WP_019092214.1| transposase [Komagataeibacter europaeus]          217   4e-54
+ref|WP_023693497.1| transposase [Mesorhizobium sp. LSJC268A00] >...   216   5e-54
+ref|WP_019658752.1| transposase [Variovorax paradoxus]                216   5e-54
+ref|WP_040581808.1| transposase [Mesorhizobium amorphae]              216   5e-54
+ref|WP_006329062.1| transposase [Mesorhizobium sp. STM 4661] >gi...   216   5e-54
+ref|WP_035807524.1| transposase [Cupriavidus basilensis]              216   5e-54
+ref|WP_007781972.1| transposase [Desulfosporosinus youngiae] >gi...   216   6e-54
+ref|WP_010516861.1| transposase [Komagataeibacter oboediens]          216   6e-54
+ref|WP_027400129.1| transposase, partial [Anaerovorax odorimutans]    216   6e-54
+ref|WP_015392184.1| putative transposase [Clostridium saccharope...   216   6e-54
+ref|WP_009550292.1| transposase [Burkholderiales bacterium JOSHI...   216   7e-54
+gb|EGW38752.1| transposase family protein [Desulfosporosinus sp....   216   7e-54
+ref|WP_040412270.1| transposase, partial [Desulfosporosinus sp. OT]   216   8e-54
+ref|WP_018481510.1| transposase, partial [Rhizobium leguminosarum]    216   8e-54
+ref|WP_019087691.1| hypothetical protein, partial [Komagataeibac...   215   1e-53
+ref|WP_027156033.1| transposase [Mesorhizobium sp. WSM2561]           215   1e-53
+ref|WP_010915951.1| transposase [Mesorhizobium loti] >gi|1348814...   215   1e-53
+ref|WP_018481639.1| transposase [Rhizobium leguminosarum]             215   1e-53
+ref|WP_006987883.1| transposase [Gillisia limnaea] >gi|373869563...   215   1e-53
+ref|WP_024564049.1| transposase [Elizabethkingia anophelis] >gi|...   215   1e-53
+ref|WP_037434776.1| transposase, partial [Sinorhizobium fredii]       215   1e-53
+ref|WP_018311573.1| transposase [Cupriavidus sp. UYPR2.512]           215   1e-53
+gb|EMD82381.1| Putative transposase y4qJ [alpha proteobacterium ...   215   1e-53
+ref|WP_035992351.1| transposase [Burkholderia caribensis]             215   1e-53
+ref|WP_028054424.1| transposase [Sinorhizobium meliloti]              215   1e-53
+ref|WP_027127353.1| transposase [Gelidibacter mesophilus]             215   1e-53
+ref|WP_035529694.1| transposase [Burkholderia sacchari] >gi|7235...   215   1e-53
+ref|WP_027170296.1| transposase [Mesorhizobium sp. WSM3224]           214   2e-53
+ref|WP_011485668.1| transposase [Polaromonas sp. JS666] >gi|9169...   214   2e-53
+ref|WP_035549095.1| transposase [Burkholderia sp. 9120]               214   2e-53
+ref|WP_042339721.1| transposase, partial [Desulfosporosinus youn...   214   2e-53
+ref|WP_014184628.1| transposase [Desulfosporosinus orientis] >gi...   214   2e-53
+ref|WP_006745854.1| transposase [Thioalkalivibrio thiocyanoxidan...   214   2e-53
+ref|WP_008903193.1| transposase [Acidovorax sp. NO-1] >gi|363417...   214   2e-53
+emb|CDM60075.1| putative transposase y4qJ [Rhizobium sp. LPU83]       214   2e-53
+ref|WP_011236918.1| transposase [Aromatoleum aromaticum] >gi|563...   214   3e-53
+gb|EHQ89870.1| Putative transposase [Desulfosporosinus youngiae ...   214   3e-53
+ref|WP_015927609.1| transposase [Methylobacterium nodulans] >gi|...   213   3e-53
+ref|WP_022827122.1| transposase [Flavobacterium antarcticum]          213   4e-53
+ref|WP_020201289.1| transposase [Cupriavidus sp. WS]                  213   4e-53
+gb|AEH87212.1| putative transposase [Mesorhizobium opportunistum...   213   4e-53
+ref|WP_006050642.1| transposase [Burkholderia graminis] >gi|1701...   213   4e-53
+ref|WP_040906865.1| transposase, partial [Youngiibacter fragilis]     213   4e-53
+ref|WP_009820053.1| transposase [Roseovarius sp. 217] >gi|856690...   213   4e-53
+gb|AHI27278.1| transposase [Komagataeibacter xylinus E25]             213   4e-53
+ref|WP_011685045.1| transposase [Candidatus Solibacter usitatus]...   213   4e-53
+ref|WP_014108251.1| transposase [Glaciecola nitratireducens] >gi...   213   5e-53
+ref|WP_007668732.1| transposase [alpha proteobacterium BAL199] >...   213   5e-53
+ref|WP_007676735.1| transposase [alpha proteobacterium BAL199] >...   213   5e-53
+ref|WP_035924767.1| transposase [Burkholderia glathei] >gi|64676...   213   5e-53
+ref|WP_007674738.1| transposase [alpha proteobacterium BAL199] >...   213   5e-53
+ref|WP_003333314.1| hypothetical protein [Bacillus azotoformans]...   213   6e-53
+ref|WP_034256913.1| transposase, partial [Arenibacter latericius]     213   6e-53
+emb|CDM59896.1| transposase [Rhizobium sp. LPU83] >gi|584453843|...   213   6e-53
+ref|WP_027780679.1| transposase [Burkholderia caledonica]             213   7e-53
+ref|WP_015867271.1| transposase [Variovorax paradoxus] >gi|23980...   212   7e-53
+ref|WP_020571607.1| hypothetical protein, partial [Lewinella per...   212   8e-53
+ref|WP_034511441.1| transposase, partial [Agrobacterium rhizogenes]   212   8e-53
+ref|WP_039736611.1| transposase, partial [Komagataeibacter inter...   212   8e-53
+ref|WP_027803823.1| transposase [Burkholderia dilworthii]             212   8e-53
+ref|WP_010668084.1| transposase [Acetobacter aceti]                   212   1e-52
+ref|WP_036357520.1| transposase [Microvirga lupini]                   212   1e-52
+gb|AAA50501.1| transposase [Bergeyella zoohelcum] >gi|1098131|pr...   212   1e-52
+ref|WP_008344701.1| MULTISPECIES: transposase [Burkholderia] >gi...   212   1e-52
+ref|WP_041250544.1| transposase [Komagataeibacter xylinus]            211   1e-52
+ref|WP_011654196.1| transposase [Rhizobium leguminosarum] >gi|11...   211   1e-52
+ref|WP_018327355.1| transposase [Rhizobium giardinii]                 211   1e-52
+ref|WP_014116732.1| transposase [Oscillibacter valericigenes] >g...   211   2e-52
+ref|WP_028215267.1| transposase [Burkholderia mimosarum]              211   2e-52
+ref|WP_019087605.1| hypothetical protein, partial [Komagataeibac...   211   2e-52
+ref|WP_034976066.1| transposase [Epilithonimonas lactis] >gi|668...   211   2e-52
+gb|ESX98013.1| transposase [Mesorhizobium sp. LNJC399B00]             211   2e-52
+ref|WP_027245727.1| transposase [Leisingera daeponensis]              211   2e-52
+ref|WP_024163049.1| transposase [Burkholderia sp. BT03] >gi|5767...   211   3e-52
+ref|WP_041881078.1| transposase, partial [Cloacimonetes bacteriu...   211   3e-52
+ref|WP_040428297.1| transposase, partial [Acetivibrio cellulolyt...   210   3e-52
+ref|WP_037267564.1| transposase, partial [Roseivivax halodurans]...   210   3e-52
+ref|WP_024163167.1| transposase [Burkholderia sp. BT03] >gi|5767...   210   3e-52
+gb|AIL44640.1| Mobile element protein [Elizabethkingia anophelis...   210   3e-52
+ref|WP_029728810.1| transposase [Elizabethkingia anophelis]           210   3e-52
+ref|WP_024293675.1| MULTISPECIES: transposase [Lachnoclostridium]     210   3e-52
+ref|WP_013454086.1| transposase [Marivirga tractuosa] >gi|312942...   210   4e-52
+ref|WP_029969404.1| transposase [Burkholderia sp. URHA0054]           210   4e-52
+ref|WP_012428456.1| transposase [Burkholderia phytofirmans] >gi|...   210   4e-52
+ref|WP_027630711.1| transposase [[Clostridium] cellobioparum]         210   5e-52
+dbj|GAC35058.1| hypothetical protein GPLA_4179 [Glaciecola polar...   210   5e-52
+ref|WP_015888209.1| transposase [Sinorhizobium fredii] >gi|22782...   210   5e-52
+ref|WP_015886711.1| transposase [Sinorhizobium fredii] >gi|22781...   209   5e-52
+ref|WP_024163064.1| transposase [Burkholderia sp. BT03] >gi|5767...   209   5e-52
+ref|WP_007745881.1| transposase [Burkholderia sp. BT03] >gi|5767...   209   5e-52
+ref|WP_040515514.1| transposase, partial [Glaciecola polaris]         209   5e-52
+ref|WP_018312315.1| hypothetical protein, partial [Cupriavidus s...   209   7e-52
+gb|ETA81464.1| transposase, partial [Youngiibacter fragilis 232.1]    209   7e-52
+ref|WP_035971049.1| transposase, partial [Burkholderia grimmiae]...   209   8e-52
+gb|AIL47510.1| Mobile element protein [Elizabethkingia anophelis...   208   1e-51
+ref|WP_038630925.1| transposase [Elizabethkingia anophelis]           208   1e-51
+emb|CCE94754.1| putative transposase y4qJ [Sinorhizobium fredii ...   208   1e-51
+ref|WP_036735872.1| transposase [Peptococcaceae bacterium SCADC1...   208   1e-51
+ref|WP_017210225.1| hypothetical protein [Clostridium beijerinckii]   208   2e-51
+ref|WP_035538517.1| transposase, partial [Burkholderia sp. BT03]      208   2e-51
+gb|EUC15544.1| Transposase zinc-binding domain containing protei...   208   2e-51
+ref|WP_035547855.1| transposase [Burkholderia sp. 9120]               208   2e-51
+ref|WP_034231286.1| transposase [Lachnospiraceae bacterium AC2029]    207   2e-51
+ref|WP_016991417.1| hypothetical protein [Flavobacterium sp. ACA...   207   3e-51
+ref|WP_023863261.1| hypothetical protein, partial [Youngiibacter...   207   3e-51
+ref|WP_027235659.1| transposase [Leisingera caerulea]                 207   4e-51
+ref|WP_039773532.1| transposase [Clostridium diolis]                  206   4e-51
+dbj|BAK98915.1| putative transposase [Oscillibacter valericigene...   206   4e-51
+ref|WP_027234882.1| transposase [Leisingera caerulea]                 206   5e-51
+ref|WP_004057725.1| hypothetical protein [Eubacterium plexicauda...   206   5e-51
+ref|WP_035189697.1| transposase, partial [Acidiphilium sp. JA12-A1]   205   1e-50
+dbj|BAL00363.1| putative transposase [Oscillibacter valericigene...   205   1e-50
+gb|AEH87209.1| putative transposase [Mesorhizobium opportunistum...   204   2e-50
+ref|WP_029731071.1| transposase [Dorea sp. AGR2135]                   204   2e-50
+gb|EQB01178.1| transposase [Sphingobium sp. HDIP04]                   204   2e-50
+ref|WP_027641388.1| transposase [[Clostridium] clostridioforme]       204   2e-50
+ref|WP_020585694.1| hypothetical protein [Desulfobacter curvatus]     204   3e-50
+ref|WP_015024984.1| transposase [Psychroflexus torquis] >gi|4084...   204   3e-50
+ref|WP_016219480.1| hypothetical protein [Dorea sp. 5-2] >gi|507...   204   3e-50
+ref|WP_034234124.1| transposase [Lachnospiraceae bacterium AC2029]    204   3e-50
+gb|ETR68107.1| transposase [Candidatus Magnetoglobus multicellul...   204   3e-50
+ref|WP_032900158.1| transposase, partial [Mesorhizobium sp. L103...   203   4e-50
+ref|WP_004615654.1| hypothetical protein [Tyzzerella nexilis] >g...   203   4e-50
+ref|WP_035572955.1| transposase, partial [Elizabethkingia anophe...   203   4e-50
+ref|WP_015514769.1| Putative transposase [Coprococcus catus] >gi...   203   4e-50
+ref|WP_012709665.1| transposase [Sinorhizobium fredii] >gi|22782...   203   5e-50
+ref|WP_012708197.1| transposase [Sinorhizobium fredii] >gi|22782...   203   5e-50
+ref|WP_002730545.1| transposase, partial [Phaeospirillum molisch...   203   5e-50
+ref|WP_023626037.1| hypothetical protein [Bacillus sp. 17376] >g...   203   6e-50
+ref|WP_026650317.1| transposase [Blautia wexlerae]                    203   6e-50
+ref|WP_041254295.1| transposase [Eubacterium rectale]                 203   7e-50
+ref|WP_026650338.1| transposase [Blautia wexlerae]                    202   8e-50
+ref|WP_029471077.1| transposase [Clostridiales bacterium VE202-06]    202   9e-50
+ref|WP_029730642.1| transposase [Dorea sp. AGR2135]                   202   1e-49
+ref|WP_011689257.1| transposase [Candidatus Solibacter usitatus]...   202   1e-49
+ref|WP_015022704.1| transposase [Psychroflexus torquis] >gi|4084...   202   1e-49
+gb|ABL71466.1| putative transposase [Paracoccus denitrificans PD...   201   1e-49
+ref|WP_041253954.1| transposase [Eubacterium rectale]                 201   2e-49
+ref|WP_016991348.1| hypothetical protein [Flavobacterium sp. ACA...   201   2e-49
+ref|WP_015516797.1| Putative transposase [Eubacterium rectale] >...   201   2e-49
+ref|WP_012740994.1| transposase [Eubacterium rectale] >gi|238874...   201   2e-49
+ref|WP_016361565.1| hypothetical protein [Lachnospiraceae bacter...   201   2e-49
+ref|WP_011383367.1| transposase [Magnetospirillum magneticum] >g...   201   2e-49
+ref|WP_024853344.1| transposase [[Ruminococcus] gnavus]               201   2e-49
+gb|AHF25959.1| transposase [uncultured bacterium Contigcl_1556]       201   2e-49
+ref|WP_025025588.1| hypothetical protein [Bacillus mannanilyticus]    201   3e-49
+ref|WP_013530389.1| MULTISPECIES: transposase, partial [Mesorhiz...   201   3e-49
+emb|CCD32169.1| Putative transposase for insertion sequence elem...   201   3e-49
+ref|WP_016217380.1| hypothetical protein [Dorea sp. 5-2] >gi|507...   200   3e-49
+ref|WP_040745465.1| transposase, partial [alpha proteobacterium ...   200   4e-49
+dbj|BAL00372.1| putative transposase [Oscillibacter valericigene...   200   4e-49
+ref|WP_005336941.1| hypothetical protein [Dorea formicigenerans]...   200   4e-49
+ref|WP_029732597.1| hypothetical protein [Dorea sp. AGR2135]          200   4e-49
+ref|WP_035355595.1| hypothetical protein [Edaphobacter aggregans]     200   4e-49
+ref|WP_016216978.1| hypothetical protein [Dorea sp. 5-2] >gi|507...   200   4e-49
+ref|WP_009245404.1| hypothetical protein, partial [Lachnospirace...   200   4e-49
+ref|WP_041727604.1| transposase [Clostridium sp. SY8519]              200   4e-49
+ref|WP_024727887.1| transposase [Clostridiales bacterium VE202-09]    200   4e-49
+ref|WP_041615922.1| transposase, partial [Oscillibacter valerici...   200   5e-49
+ref|WP_015515750.1| Putative transposase [Eubacterium rectale] >...   200   5e-49
+ref|WP_040414983.1| transposase, partial [Cyclobacterium qasimii]     199   6e-49
+ref|WP_034761871.1| transposase [Bacillus vietnamensis]               199   7e-49
+ref|WP_016220383.1| hypothetical protein [Dorea sp. 5-2] >gi|507...   199   7e-49
+ref|WP_026135799.1| hypothetical protein [Nafulsella turpanensis]     199   9e-49
+ref|WP_033015109.1| transposase [Pseudoalteromonas sp. BSi20495]      199   9e-49
+ref|WP_032986666.1| transposase, partial [Rhizobium leguminosarum]    199   9e-49
+ref|WP_018616654.1| hypothetical protein [Segetibacter koreensis]     199   9e-49
+ref|WP_019998820.1| hypothetical protein [Aureimonas ureilytica]      199   1e-48
+ref|WP_016291245.1| hypothetical protein [Lachnospiraceae bacter...   198   1e-48
+ref|WP_019808526.1| putative transposase [Osedax symbiont Rs1] >...   198   1e-48
+ref|WP_032921255.1| transposase, partial [Mesorhizobium loti]         198   1e-48
+ref|WP_015569070.1| Putative transposase [Eubacterium rectale] >...   198   1e-48
+ref|WP_004843169.1| transposase [[Ruminococcus] gnavus] >gi|1537...   198   2e-48
+gb|EDP63173.1| putative transposase for insertion sequence eleme...   198   2e-48
+ref|WP_026528649.1| transposase [Butyrivibrio sp. VCD2006]            198   2e-48
+ref|WP_040892916.1| transposase [[Bacteroides] pectinophilus]         198   2e-48
+ref|WP_033103125.1| MULTISPECIES: transposase [Alteromonadales]       198   2e-48
+gb|EOS47972.1| hypothetical protein C810_01058 [Lachnospiraceae ...   198   2e-48
+ref|WP_024606118.1| transposase [Pseudoalteromonas haloplanktis]      198   2e-48
+ref|WP_022784488.1| transposase [Lachnospiraceae bacterium NK4A179]   198   2e-48
+gb|ERI81544.1| putative transposase [Clostridium sp. ATCC BAA-442]    197   3e-48
+emb|CDL66297.1| unnamed protein product [uncultured bacterium]        197   3e-48
+ref|WP_038340139.1| hypothetical protein, partial [delta proteob...   197   3e-48
+ref|WP_023863528.1| transposase, partial [Youngiibacter fragilis...   197   3e-48
+gb|ESY62268.1| transposase [Mesorhizobium sp. LNHC232B00]             197   3e-48
+ref|WP_034751761.1| transposase [Bacillus wakoensis] >gi|5688057...   197   3e-48
+gb|AJE48508.1| putative transposase [Celeribacter indicus]            197   3e-48
+ref|WP_010256768.1| transposase [Myroides injenensis]                 197   3e-48
+ref|WP_033023067.1| transposase [Pseudoalteromonas sp. Bsw20308]      197   3e-48
+ref|WP_033053057.1| transposase, partial [Sinorhizobium meliloti]     197   4e-48
+ref|WP_026663410.1| transposase [Butyrivibrio proteoclasticus]        197   4e-48
+ref|WP_033923577.1| transposase, partial [Sphingomonas sp. 37zxx]     197   4e-48
+ref|WP_029318836.1| hypothetical protein, partial [Butyrivibrio ...   196   4e-48
+ref|WP_034625589.1| transposase [Bacillus okhensis] >gi|72709143...   196   5e-48
+ref|WP_037259113.1| transposase, partial [Rhodovibrio salinarum]      196   6e-48
+ref|WP_038577214.1| transposase [Ensifer adhaerens]                   196   6e-48
+ref|WP_022757609.1| MULTISPECIES: transposase [Butyrivibrio]          196   8e-48
+ref|WP_036732579.1| transposase [Peptococcaceae bacterium SCADC1...   196   8e-48
+ref|WP_026491914.1| transposase [Butyrivibrio sp. XPD2002]            196   8e-48
+ref|WP_041163732.1| MULTISPECIES: transposase, partial [Mesorhiz...   195   1e-47
+gb|EOS24608.1| hypothetical protein C806_02122 [Lachnospiraceae ...   195   1e-47
+dbj|GAA10354.1| transposase [Acetobacter tropicalis NBRC 101654]      195   1e-47
+ref|WP_022237657.1| transposase [Clostridium sp. CAG:343] >gi|52...   194   2e-47
+gb|ETX13021.1| transposase [Roseivivax halodurans JCM 10272]          194   2e-47
+ref|WP_015515805.1| Putative transposase [Eubacterium rectale] >...   194   2e-47
+ref|WP_015768383.1| transposase [Candidatus Accumulibacter phosp...   194   2e-47
+ref|WP_032091252.1| transposase [bacterium LF-3]                      194   2e-47
+ref|WP_008109153.1| transposase [Pseudoalteromonas sp. BSi20311]...   194   2e-47
+ref|WP_029319605.1| transposase [Butyrivibrio sp. AE3004]             194   2e-47
+ref|WP_015552621.1| Putative transposase [butyrate-producing bac...   194   2e-47
+ref|WP_039493859.1| transposase [Pseudoalteromonas elyakovii] >g...   194   2e-47
+ref|WP_040515482.1| transposase [Glaciecola polaris]                  194   2e-47
+ref|WP_041692942.1| transposase, partial [Ensifer adhaerens]          194   3e-47
+ref|WP_027471365.1| hypothetical protein [Cytophaga fermentans]       194   3e-47
+ref|WP_021421440.1| transposase family protein [Peptoclostridium...   193   4e-47
+ref|WP_034953772.1| transposase [Candidatus Accumulibacter sp. S...   193   4e-47
+ref|WP_035781414.1| transposase, partial [Butyrivibrio sp. LB2008]    193   5e-47
+ref|WP_007375502.1| Mobile element protein [Pseudoalteromonas sp...   193   5e-47
+ref|WP_026670818.1| transposase [Butyrivibrio sp. AE3006]             193   6e-47
+ref|WP_033038034.1| transposase, partial [Pseudoalteromonas sp. ...   193   6e-47
+gb|KDC55724.1| transposase [Pseudoalteromonas sp. S3431]              193   6e-47
+ref|WP_036983809.1| transposase [Pseudoalteromonas sp. SCSIO_119...   193   6e-47
+ref|WP_004452854.1| transposase [Peptoclostridium difficile] >gi...   193   7e-47
+ref|WP_026489412.1| transposase [Butyrivibrio sp. XBB1001]            193   7e-47
+ref|WP_029215792.1| transposase [Pseudoalteromonas flavipulchra]      193   8e-47
+ref|WP_024593465.1| transposase [Pseudoalteromonas haloplanktis]      193   8e-47
+ref|WP_015568043.1| Putative transposase [Eubacterium rectale] >...   192   8e-47
+ref|WP_004069654.1| hypothetical protein [Clostridium sp. ASF502...   192   9e-47
+ref|WP_034753295.1| transposase, partial [Bacteroides cellulosil...   192   1e-46
+ref|WP_005343049.1| transposase [Dorea formicigenerans] >gi|3459...   192   1e-46
+ref|WP_015514773.1| Putative transposase [Coprococcus catus] >gi...   192   1e-46
+ref|WP_037492800.1| transposase [Sphingomonas sp. PAMC 26605]         192   1e-46
+ref|WP_040668419.1| transposase, partial [Rhizobium giardinii]        192   1e-46
+ref|WP_020993160.1| hypothetical protein [Ruminococcus sp. 5_1_3...   192   1e-46
+ref|WP_029215831.1| transposase [Pseudoalteromonas flavipulchra]      191   1e-46
+gb|EHG32832.1| hypothetical protein HMPREF9467_01431 [ [[Clostri...   191   2e-46
+ref|WP_033104249.1| MULTISPECIES: transposase [Alteromonadales] ...   191   2e-46
+ref|WP_034611593.1| transposase, partial [Desulfosporosinus sp. ...   191   2e-46
+ref|WP_016898906.1| hypothetical protein, partial [Pseudoalterom...   191   2e-46
+gb|EIY31917.1| hypothetical protein HMPREF1062_02344 [Bacteroide...   191   2e-46
+ref|WP_038333685.1| transposase [Empedobacter falsenii]               191   2e-46
+ref|WP_026517290.1| transposase [Butyrivibrio sp. MC2021]             191   2e-46
+ref|WP_029770524.1| transposase [Pseudogulbenkiania sp. MAI-1]        191   2e-46
+ref|WP_026663092.1| transposase [Butyrivibrio proteoclasticus]        191   2e-46
+ref|WP_041219673.1| transposase, partial [Desulfitobacterium dic...   191   3e-46
+ref|WP_015497571.1| transposase, partial [Octadecabacter arcticu...   191   3e-46
+gb|AGA68219.1| Putative transposase [Desulfitobacterium dichloro...   190   3e-46
+ref|WP_040914834.1| hypothetical protein, partial [Lentisphaera ...   190   3e-46
+ref|WP_029770730.1| transposase [Pseudogulbenkiania sp. MAI-1]        190   4e-46
+ref|WP_010663736.1| transposase [Marinilabilia salmonicolor]          190   4e-46
+gb|ACN17534.1| transposase family protein [Desulfobacterium auto...   190   5e-46
+ref|WP_013755172.1| transposase [Glaciecola sp. 4H-3-7+YE-5] >gi...   190   5e-46
+ref|WP_041881075.1| transposase, partial [Cloacimonetes bacteriu...   189   5e-46
+ref|WP_006848606.1| putative transposase y4qJ [Prevotella copri]...   189   5e-46
+ref|WP_015805940.1| transposase [Flavobacteriaceae bacterium 351...   189   5e-46
+ref|WP_039346995.1| transposase [Chryseobacterium jeonii] >gi|74...   189   6e-46
+gb|ENZ61166.1| hypothetical protein HMPREF1083_03828 [ [[Clostri...   189   7e-46
+ref|WP_035349355.1| transposase, partial [Edaphobacter aggregans]     189   7e-46
+gb|AGL02812.1| Putative transposase [Desulfotomaculum gibsoniae ...   189   8e-46
+gb|ETX08296.1| hypothetical protein ETSY2_06210 [Candidatus Ento...   189   8e-46
+ref|WP_039053787.1| transposase, partial [Sphingobacterium sp. T2]    189   8e-46
+ref|WP_029944723.1| transposase, partial [Cloacimonetes bacteriu...   189   8e-46
+ref|WP_029952393.1| hypothetical protein, partial [Cloacimonetes...   189   8e-46
+ref|WP_038273772.1| hypothetical protein, partial [[Clostridium]...   189   1e-45
+ref|WP_024345973.1| hypothetical protein [[Clostridium] methoxyb...   188   1e-45
+ref|WP_035646052.1| transposase [Bradyrhizobium sp. ORS 285]          188   1e-45
+
+Sequences not found previously or not previously below threshold:
+
+Searching........................................

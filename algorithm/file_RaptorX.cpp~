@@ -1,0 +1,76 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+	fstream input (argv[1]);
+	ofstream segment (argv[2]);	
+	string residues;
+	int res_start, res_end, res_no,seg_no=1;
+	char res, type, prev_type;
+	double h_helix, b_strand, c_loop, weight;
+	getline(input, residues);getline(input, residues);getline(input, residues);
+	segment << "Seg_no" << "\t" << "Type" << "\t" << "Weight" << "\t" << "start" << "\t" << "end" << "\t" << "Segment" << endl;	
+	if (input.is_open() && segment.is_open())
+	{
+		input >> res_start;
+		input >> residues;
+		input >> prev_type;
+		input >> h_helix;
+		input >> b_strand;
+		input >> c_loop;
+		res_end = res_start;
+		if(prev_type == 'H')
+			weight = h_helix;
+		else if (prev_type == 'E')
+			weight = b_strand;
+		else if (prev_type == 'C')
+			weight = c_loop;
+					
+		while (1)
+		{
+			if(!(input >> res_no)) break;
+			input >> res;
+			input >> type;
+			input >> h_helix;
+			input >> b_strand;
+			input >> c_loop;
+			
+			
+			if (prev_type == type)
+			{
+				residues = residues + res;
+				res_end++;
+
+				if(type == 'H')
+					weight += h_helix;
+				else if (type == 'E')
+					weight += b_strand;
+				else if (type == 'C')
+					weight += c_loop;
+			}
+			else
+			{
+				weight = weight / (res_end-res_start+1);
+				segment << seg_no << "\t" << prev_type << "\t" << weight << "\t" << res_start << "\t" << res_end << "\t" << residues << endl;
+				seg_no++;
+				res_start = res_end = res_no;
+				if(type == 'H')
+					weight = h_helix;
+				else if (type == 'E')
+					weight = b_strand;
+				else if (type == 'C')
+					weight = c_loop;
+				residues = res;
+			}
+						
+			prev_type = type;
+		}
+		weight = weight / (res_end-res_start+1);
+		segment << seg_no << "\t" << prev_type << "\t" << weight << "\t" << res_start << "\t" << res_end << "\t" << residues << endl;
+		segment.close();
+		input.close();
+	}
+	return 0;
+}

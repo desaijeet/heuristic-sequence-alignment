@@ -1,0 +1,71 @@
+1. Probably the most frequent questions we receive is regarding an error such as:
+"FATAL: Error whilst running blastpgp - script terminated!"
+
+This error just means that the script tried to run PSI-BLAST, but failed for some reason.
+Unfortunately, we did not write PSI-BLAST so we can't diagnose technical problems with it. The usual
+reason for PSI-BLAST failures is something quite ordinary, however - you probably have not installed
+something properly. If you get errors when running the runpsipred script, then the first place to
+look is the runpsipred script. You should see some lines like this:
+
+set dbname = uniref90filt
+set ncbidir = /usr/local/bin
+set execdir = ./bin
+set datadir = ./data
+
+The first line sets the name of the database you wish to use. We happen to use UNIREF90, but you
+may have decided to use the NCBI nr data bank or something else. In that case, you probably want
+to change the dbname e.g. to:
+
+set dbname = nrfilt
+
+The ncbidir variable should point to the various NCBI blast executables, execdir the PSIPRED executables
+and datadir the PSIPRED data files. If any of these lines in the runpsipred script don't correspond to
+the way things are ON YOUR OWN SYSTEM then it won't work. There is almost no chance that things on your
+system are exactly where they are on our system, so if you think you don't need to edit the runpsipred
+script then you are probably mistaken!
+
+If you are facing a blastpgp error, then the first thing you should check is that you can run blastpgp
+on its own. Try a basic command like this, for example:
+
+/usr/local/bin/blastpgp -i example.fasta -d uniref90filt
+
+(this assumes that you have a test sequence in your currect directory called example.fasta)
+
+If you get errors when you run this command then the same problems will happen in the runpsipred script.
+In that case you need to fix the PSI-BLAST problems before returning to running PSIPRED.
+
+Here's a brief checklist of questions to go through if you have problems:
+
+
+Have you downloaded the correct version of the NCBI toolkit for your system?
+
+Are you using the legacy BLAST or the new BLAST+?
+
+Have you downloaded a sequence data bank?
+
+Have you filtered the data bank with the pfilt command?
+
+Have you formatted the data bank with the formatdb command?
+
+What name did you give to the data bank?
+
+Have you edited the runpsipred script with the correct data bank name and directories?
+
+Does blastpgp work when you run it from a command line?
+
+
+
+2. The next most common question we get regards getting different predictions from our PSIPRED web server from those you
+get on your own system. There are many reasons why this might occur, but the most obvious one is that we are using a
+different sequence data bank to the one you are using. Because modern secondary structure prediction methods are based on
+analysing multiple sequence alignments, if your data bank includes some extra sequences or misses out some sequences compared
+to our local data bank then you might get a slightly different prediction. Hopefully the differences will be small, but
+they can be quite significant if the alignment only includes a few sequences. So, if our server can find say just 5
+homologous sequences and your system finds 20 homologous sequences to align, then the predictions may be very different
+indeed. That's just the reality of analysing evolutionary information. If the alignments are different, then the predicted
+secondary structure will probably be different.
+
+It's also possible that we are running a slightly older version of PSIPRED. Oddly enough we don't update our servers immediately
+after releasing a new version of PSIPRED as we need to do internal testing first. So, check that you are running the exact
+same version of PSIPRED as our server is currently running. Even so, it's likely that the real problem is going to be down
+to differences in the data banks and alignments that are produced.

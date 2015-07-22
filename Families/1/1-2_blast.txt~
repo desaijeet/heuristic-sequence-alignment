@@ -1,0 +1,58 @@
+Correctly aligned segments:
+above 80%: 7/8
+
+Matched structure: 69/128
+
+BLASTP 2.2.25+
+
+
+Query= A3XLE6_LEEBM (A3XLE6)
+
+Length=166
+
+Subject= B8YG37_9VIBR (B8YG37)
+
+Length=506
+
+
+ Score = 69.7 bits (169),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 42/128 (33%), Positives = 68/128 (54%), Gaps = 4/128 (3%)
+
+Query  30   RTLYALRKCRTAALGGHIDRCTNTSCNILHLSYNSCRNRHCPKCQGHKREQWIRAREEEL  89
+            R + A+ +C+T   G     C++  C+       SC +RHCP+CQ      W++ ++++ 
+Sbjct  185  RAIRAMLRCKTEQQGRSQWFCSH--CHHDDRLPLSCGHRHCPQCQQRTTSDWLQRQQQKR  242
+
+Query  90   LNVPYFHVVFTLPCELNRLCLYEPRLLYDLLFKTAWEVITGFASNPKFLGASPGMIAILH  149
+            L V YF V FTLP +L  L  ++PR  Y+ +FK A  V+  FA   + +    G  A+LH
+Sbjct  243  LPVHYFMVTFTLPYQLRVLARHQPRATYNGMFKVASGVLKDFAK--RQMQGELGFTAVLH  300
+
+Query  150  TWGQNLSL  157
+            T  +  +L
+Sbjct  301  THSRQRNL  308
+
+
+ Score = 14.6 bits (26),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 5/11 (46%), Positives = 8/11 (73%), Gaps = 0/11 (0%)
+
+Query  26   SWQLRTLYALR  36
+            +W+ RTL  L+
+Sbjct  420  AWRTRTLPTLK  430
+
+
+
+Lambda     K      H
+   0.326    0.136    0.458 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+Effective search space used: 67200
+
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
